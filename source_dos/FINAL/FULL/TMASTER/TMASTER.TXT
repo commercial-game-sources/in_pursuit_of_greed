@@ -1,0 +1,90 @@
+The Thrustmaster WCS Mark 2 can be used in conjunction with the Mark II FCS
+to play IN PURSUIT OF GREED.
+
+To setup IN PURSUIT OF GREED for the WCS Mark 2 and Mark II FCS, joystick
+control must be enabled and the keyboard mapping must be set to default in
+the SETUP program.
+
+-  Change to the drive and directory that GREED was installed to:
+        ex:     C:\
+                CD\GREED
+-  Run the setup program by typing SETUP and the pressing ENTER
+
+To enable the Joystick:
+-  Select JOYSTICK SETUP from the Main Menu
+-  Highlight the line that reads JOYSTICK:  OFF
+-  Press ENTER, line should now read JOYSTICK:  ON
+-  Press ESCAPE
+
+To return Keyboard to default values:
+-  Select CUSTOM CONTROL from the Main Menu
+-  Verify that the game controls are set to the following values:
+        Run:            LSHIFT
+        Jump:           Z
+        Slide:          ALT
+        Fire:           CTRL
+        Use:            SPACE
+        Use Item:       X
+        A.S.S. Cam:     A
+        Look Up:        PGUP
+        Look Down:      PGDN
+        Center View:    HOME
+        Slide Left:     ,
+        Slide Right:    .
+        Inv. Left:      INS
+        Inv. Right:     DEL
+-  If any of these values are incorrect:  Highlight the value, press ENTER,
+   press the appropriate key.
+-  When all values are correct, press ESCAPE
+Choose SAVE AND EXIT from the Main Menu
+
+---------------------------------------------------------------------------
+To use the .ADV and .MDF files for your WCS Mark 2:
+
+-  Type CD\MARK2 to enter the WCS directory
+-  Type M2 and ENTER to load the WCS Mark 2 Command and Control Center
+-  Press Enter
+-  Choose option B - Download File
+-  Enter the path to the TMASTER subdirectory in the main GREED directory
+        ex:  C:\GREED\TMASTER\
+-  Select GREED.ADV and follow the on-screen instructions.
+The WCS Mark 2 should now be configured to play IN PURSUIT OF GREED
+---------------------------------------------------------------------------
+
+FCS commands:
+
+buttons:
+BTN UB          Use Inventory item
+BTN MB          Use Switch
+BTN LB          Jump
+hat switch:
+BTN HU          Look Up
+BTN HD          Look Down
+BTN HL          Strafe Left
+BTN HR          Strafe Right
+
+WCS Mark 2 commands:
+
+Rocker switch up:
+BTN 1           Escape to/from menu
+BTN 2           Pause
+BTN 3           Mission Briefing (not available in network play)
+BTN 4           Enlarge Screen size
+BTN 5           Shrink Screen size
+BTN 6           Help Screen
+Rocker switch middle:
+BTN 1           Run
+BTN 2           Cycle Inventory left
+BTN 3           Cycle Inventory right
+BTN 4           toggles between:  Hand Weapon and Hand Gun (gun1 and gun2)
+BTN 5           toggles between:  Energy and Bullet weapon (gun3 and gun4)
+BTN 6           selects Plasma Weapon (gun5)
+Rocker switch down:
+BTN 1           Toggle Map modes
+BTN 2           Heat Sensor on/off
+BTN 3           Motion Sensor on/off
+BTN 4           A.S.S. Cam on/off
+BTN 5           Tab through Item displays (Primary, Secondary, Bonus)
+BTN 6           AutoRun on/off
+
+Note:  Throttle does not have a function in IN PURSUIT OF GREED

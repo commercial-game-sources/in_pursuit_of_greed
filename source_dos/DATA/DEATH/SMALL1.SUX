@@ -1,0 +1,24 @@
+rem ** DEATH MATCH LEVEL (Small1.lay)
+rem **
+rem **
+rem ** elevator North (Rises when stepped on) ****
+areatrigger 19 27 20 28 1
+mapzone 19 27 20 28 1 2 8 85 15 0
+mapzone 1 1 1 1 2 3 8 100 8 0
+mapzone 19 27 20 28 3 4 8 0 15 0
+mapzone 1 1 1 1 4 5 8 0 255 0
+spawntrigger 19 27 5 1 0
+spawntrigger 20 27 5 1 0
+spawntrigger 19 28 5 1 0
+spawntrigger 20 28 5 1 0
+rem **
+rem ** elevator East (Rises when stepped on) ****
+areatrigger 59 36 59 37 6
+mapzone 59 36 59 37 6 7 8 84 15 0
+mapzone 2 1 2 1 7 8 8 100 8 0
+mapzone 59 36 59 37 8 9 8 20 15 0
+mapzone 2 1 2 1 9 10 8 0 255 0
+spawntrigger 59 36 10 6 0
+spawntrigger 59 37 10 6 0
+
+end of file

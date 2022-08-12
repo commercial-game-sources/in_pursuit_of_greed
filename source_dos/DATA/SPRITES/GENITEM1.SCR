@@ -1,0 +1,17 @@
+genpmine1 dsprite 1 1 43 48
+genpmine2 dsprite 45 1 43 48
+genpmine3 dsprite 89 1 43 48 
+genpmine4 dsprite 133 1 43 48
+gentmine1 dsprite 1 50 43 48
+gentmine2 dsprite 45 50 43 48
+gentmine3 dsprite 89 50 43 48
+gentmine4 dsprite 133 50 43 48
+genrevpill1 dsprite 1 99 43 48 
+genrevpill2 dsprite 45 99 43 48
+genrevpill3 dsprite 89 99 43 48
+genrevpill4 dsprite 133 99 43 48
+gengrenade1 dsprite 1 148 43 48
+gengrenade2 dsprite 45 148 43 48
+gengrenade3 dsprite 89 148 43 48 
+gengrenade4 dsprite 133 148 43 48
+

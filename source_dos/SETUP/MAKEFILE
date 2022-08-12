@@ -1,0 +1,64 @@
+##############################################################################
+#
+#                   Digital Sound Interface Kit (DSIK)
+#                            Version 2.00
+#
+#                           by Carlos Hasan
+#
+#컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+# Filename:     makefile
+# Version:      Revision 1.0
+#
+# Description:  Makefile for the DSIK example files.
+#
+# Revision History:
+# -----------------
+#
+# Revision 1.0  94/10/30  14:12:52  chv
+# Initial revision
+#
+##############################################################################
+
+CC      = wcc386 -zq -oeasmir -s -zld -w9 
+CC286   = wcc -zq -oeatx -zld -w9 
+LD      = wcl386 -zq -l=dos4g -fm /k16000
+LD286   = wcl -zq
+ASM     = tasm -m -q -ml -p -t -la
+EXE     = SET
+BINDER  = 4GWBIND 
+
+dummy:  .SYMBOLIC
+	wmake set.exe
+	wmake setup.exe
+	wmake play.exe
+
+
+set.exe : set.c set.obj modload.obj import.obj kbfunc.obj setup.h detect.obj
+	$(LD) set.obj modload.obj import.obj kbfunc.obj detect.obj
+#        $(BINDER) 4GWPRO.EXE set ..\set
+
+setup.exe : setup.obj
+	$(LD286) setup
+
+setup.obj : setup.c setup.h
+	$(CC286) setup
+
+play.exe: play.obj modload.obj import.obj detect.obj timer.obj
+	$(LD) play.obj modload.obj import.obj detect.obj timer.obj
+#        $(BINDER) 4GWPRO.EXE play ..\play
+
+clean :
+    @del play.obj > nul
+    @del setup.obj > nul
+    @del m2dsm.obj > nul
+    @del examp??.obj > nul
+    @del *.bak > nul
+
+.obj.exe :
+    $(LD) $<
+
+.c.obj:
+    $(CC) $<
+
+.asm.obj:
+    $(ASM) $<

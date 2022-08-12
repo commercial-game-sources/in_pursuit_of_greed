@@ -1,0 +1,49 @@
+CC       = WCC386
+CC286    = WCL
+LD       = WCL386
+EXE      = GREED
+ASM      = TASM
+BINDER   = 4GWBIND 
+BFLAGS   = 4GWPRO.EXE $(EXE) ..\$(EXE) 
+AFLAGS   = /mx /m2 /t /w2 /z
+AFLAGS2  = /5ps /e /mf /zq /w9
+CFLAGS   = /mf /zq /zp4 /oeatx /5s /fp5 /w9 /ei 
+CFLAGS2  = /zq /osx /3 /w9 /ei
+LFLAGS   = /mf /zq /l=DOS4G /fe=$(EXE) /fm /k16384
+OBJS     = constant.obj raven.obj intro.obj blitbuf.obj &
+	   r_public.obj r_spans.obj r_conten.obj r_render.obj r_walls.obj ra_draw.obj r_plane.obj &
+	   d_disk.obj d_misc.obj d_font.obj d_ints.obj d_video.obj &
+	   utils.obj sprites.obj display.obj menu.obj spawn.obj &
+	   net.obj timer.obj playfli.obj &
+	   modplay.obj modload.obj import.obj detect.obj mouse.obj event.obj
+
+$(EXE).exe: $(OBJS) wstub.c
+	$(LD) $(LFLAGS) *.obj 
+	copy greed.exe ..
+#        $(BINDER) $(BFLAGS) 
+
+ra_draw.obj: ra_draw.asm viewsize.inc
+	$(ASM) $(AFLAGS) ra_draw.asm
+
+mouse.obj: mouse.asm
+	$(ASM) $(AFLAGS) mouse.asm
+
+blitbuf.obj: blitbuf.asm viewsize.inc
+	$(ASM) $(AFLAGS) blitbuf.asm
+
+.c.obj: .AUTODEPEND
+	$(CC) $(CFLAGS) $[*
+
+wstub: wstub.c .SYMBOLIC
+	$(CC286) $(CFLAGS2) wstub
+	move wstub.exe E:\watcom\binw
+	del wstub.obj
+	del greed.exe
+	del *.err
+
+clean: .SYMBOLIC
+	del *.err
+	del *.lst
+	del *.map
+	del *.exe
+	del ..\*.swp

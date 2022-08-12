@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{581c4767-5ba6-4341-b4ed-49d79f36292e}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0ceea494-ccf1-4a70-abc8-612ab6d39145}</UniqueIdentifier>
+      <Extensions>*.c *.cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win32\D_disk.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\D_font.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\D_global.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\D_ints.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\D_misc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\D_video.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\Protos.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\R_public.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\R_refdef.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32\Timer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Win32\Constant.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\D_disk.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\D_font.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\D_ints.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\D_misc.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\D_video.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Display.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Event.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Intro.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Menu.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Modplay.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Net.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Playfli.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\R_conten.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\R_plane.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\R_public.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\R_render.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\R_spans.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\R_walls.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Raven.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Spawn.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Sprites.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Timer.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32\Utils.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

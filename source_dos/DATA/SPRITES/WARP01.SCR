@@ -1,0 +1,8 @@
+warp_0 dsprite 1 1  64   64
+warp_1 dsprite 67 1  64  64
+warp_2 dsprite 133 1  64   64
+warp_3 dsprite 199 1  64   64
+warp_4 dsprite 1 67  64   64
+warp_5 dsprite 67 67  64  64
+warp_6 dsprite 133 67  64  64
+warp_7 dsprite 199 67  64   64

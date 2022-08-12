@@ -1,0 +1,13 @@
+guardspark1 dsprite 191 65 9 9
+guardspark2 dsprite 204 65 10 9
+guardspark3 dsprite 192 77 10 10
+guardspark4 dsprite 204 77 10 10
+bigspark1   dsprite 137 62 17 16
+bigspark2   dsprite 161 62 19 16
+bigspark3   dsprite 139 82 17 17
+bigspark4   dsprite 161 81 19 17
+bloodhit1   dsprite 98 66 10 9
+bloodhit2   dsprite 113 66 9 9
+bloodhit3   dsprite 98 78 10 10
+bloodhit4   dsprite 112 78 10 10
+

@@ -1,0 +1,25 @@
+Network Setup
+ 1. select number of players
+ 2. select network socket, leave it on default 1234 unless more than one
+     game running on the same network
+ 3. select character type
+ 4. enter name of character
+ 5. select map, all maps must be the same for everyone in the game
+ 6. select "play net greed"
+
+Serial Setup
+ 1. select to be player 1 or player 2 if using null modem mode, the other
+     player must not be the same player number as you
+ 2. enter number to dial for dial mode
+ 3. select com port of modem or serial connection
+ 4. select character type
+ 5. enter name of character
+ 6. select map, maps for both players must be the same
+ 7. select either dial, answer, or null modem mode
+
+if the reported irq or port is incorrect, you must enter the new settings
+directly on the command line. for full command line options, type 
+"sergreed help".
+
+
+

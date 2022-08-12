@@ -1,0 +1,9 @@
+;plaspuff0       dsprite 4 16 32 30
+plaspuff1       dsprite 52 4 45 44
+plaspuff2       dsprite 104 4 55 55
+plaspuff3       dsprite 169 5 61 55
+plaspuff4       dsprite 240 7 49 50
+greenpuff1      dsprite 52 65 45 44
+greenpuff2      dsprite 104 65 55 55
+greenpuff3      dsprite 169 66 61 55
+greenpuff4      dsprite 240 68 49 50

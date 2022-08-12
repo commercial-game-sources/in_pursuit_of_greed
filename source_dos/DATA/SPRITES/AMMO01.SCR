@@ -1,0 +1,17 @@
+ammo1 dsprite   1   1   43 48
+ammo2 dsprite   45  1   43  48
+ammo3 dsprite   89  1   43  48
+ammo4 dsprite   133 1   43  48
+ammo5 dsprite   1   50  43  48
+ammo6 dsprite   45  50  43  48
+ammo7 dsprite   89  50  43  48
+ammo8 dsprite   133 50  43  48
+ammo9 dsprite   1   99  43  48
+ammo10 dsprite  45  99  43  48
+ammo11 dsprite  89  99  43  48
+ammo12 dsprite  133 99  43  48
+blank0 dsprite  1   148 43  48
+blank1 dsprite  45  148 43  48
+blank2 dsprite  89  148 43  48
+blank3 dsprite  133 148 43  48
+

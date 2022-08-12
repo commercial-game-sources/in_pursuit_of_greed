@@ -1,0 +1,74 @@
+The most common problems you are likely to encounter are:
+
+1. When you ran Greed, did you get a "Warning, low on memory!" message. 
+   (That's why you're reading this, right?) If you're on an 8 meg system,
+   you're probably always going to get this message - but you can do the
+   following to make the game run. (If you don't, the game may play fine for
+   quite awhile, but sooner or later a "malloc" failure will occur, or you
+   will just hang or crash.)
+
+   a.) Remove all TSR's, such as smart drive - rem them out in config.sys
+       and reboot then try again.
+   b.) Some systems do not work well with HIMEM and EMM386 - rem these out
+       in your config.sys, as well.
+   c.) Make a boot disk! Change to the directory where you installed the
+       game and type "GREEDMB" then press <Enter>. Follow the prompts
+       and then reboot your computer.
+       (or call tech support).
+
+2. If autodetection of your sound card fails and you've checked the settings
+   in the SETUP.EXE program and it STILL doesn't work try the following:
+
+    Look at your AUTOEXEC.BAT file and check your SET BLASTER settings
+    (assuming you are using a Sound Blaster compatible card).  Use the
+    Address, DMA, and IRQ values and setup your sound card manually by
+    running the setup program.
+
+    A typical line might look like this:
+
+         SET BLASTER=A220 I7 D1 T3
+
+    (where the Address is 220, DMA is 1, and IRQ is 7.)
+
+    A sound blaster 16 has the following typical setup:
+
+         SET BLASTER=A220 I5 D1 H5 P330 T6
+
+    (where the Address is 220, DMA is 5 (the high DMA) and IRQ is 5.)
+
+    If you are not using a Sound Blaster, consult the manual that came with
+    your sound card and double check the settings there before trying the
+    setup program again.
+
+   Also note that you MUST have a sound card for sound - the PC speaker is
+   not supported.
+
+3. To increase speed (and for slower systems), try setting the sound quality 
+   lower and reduce the number of channels to 4 or below. (Unless you've got
+   your sound pumping through an expensive stereo system or high quality
+   head phones, maximum quality differs little from low quality).  Reducing
+   the screen size also speeds the game up considerably.  Turn off mouse and
+   joystick support if you aren't using them.
+
+4. It may be necessary to increase the sound cache value up to 4 if you
+   are using a Gravis Ultrasound soundcard.  The card has internal memory
+   and decreasing the sound cache too far may slow playback substantially
+   on this device.  The Gravis Ultrasound must have a minimum of 512k of
+   onboard memory to work with Greed.
+
+5. If your modem does not respond to the initialization string, check the
+   port, irq, and modem.cfg file to make sure everything matches your modem
+   configuration.  You can change the default settings by changing the
+   parameters for sergreed.exe.  To view these optional parameters, type
+   "sergreed /help".  The modem requires that after a DTR signal, it hangs
+   up, Carrier Detect is on, XON/XOFF flow control is on, compression
+   is turned off, and force 9600 bps connection. (Read the MODEM.CFG file.)  
+
+6. If you need further help:
+   a. Check the Softdisk Home Page at: http://softdisk.com for
+      up-to-the-minute information.
+   b. Send email with your complete system configuration and list of error
+      messages received to: softdisk@softdisk.com.
+   c. Call the Softdisk Tech Support Hotline at 1-318-221-8311.
+
+

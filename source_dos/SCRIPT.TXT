@@ -1,0 +1,202 @@
+Overview
+--------
+	The script file, associated with each layer file, is used for the
+definition of virtual objects, those objects which are outside the influence
+of other sprites.  Only the player (or network player) can affect triggers
+and wall switches.  The script file is also used for the initialization of
+sprites and elevators.  Monsters should be defined with the script file
+rather than placed in the map directly although both methods are valid.
+Defining monsters in the script, however, allows for more options than
+would normally be possible.
+
+
+Definitions
+-----------
+zone: area effect defined by a rectanglar region of the map
+
+sprite: monsters or objects that have hitpoints and the ability to move
+
+trigger: pressure sensitive map locations
+
+wall switch: player must press space bar while facing a switch texture
+ defined in the map editor.
+
+event: a value (eval) is broadcast.
+
+broadcast: all zones, elevators, and spawn events are activated if they
+ equal the event value being sent.
+
+
+
+Syntax
+------
+ keyword        parameters
+ -------------- ----------------------------------------------------
+ activationzone x1 y1 x2 y2 eval removeable
+ mapzone        x1 y1 x2 y2 eval endeval layer mval mrate removeable
+ elevator       x y eval endeval etype upper lower speed
+ sprite         x y stype ceval def1 def2
+ spawn          x y eval stype ceval def1 def2 removeable
+ areatrigger    x1 y1 x2 y2 eval
+ trigger        x y eval
+ wallswitch     x y eval
+ primary        pnum val total psprite
+ secondary      snum val total psprite
+ bonustime      time
+ levelscore     val
+ spawntrigger   x y eval teval removeable
+ spawnsound     x y eval snum removeable
+ spawnfli       eval fn
+ spawnelevator  x y eval etype upper lower speed
+ forceload      name n
+
+
+Description
+-----------
+ activationzone     wakes up sprites in the zone
+ mapzone            changes the map
+ elevator           spawns an elevator
+ sprite             spawns sprite at begginning
+ spawn              spawns a sprite at event
+ areatrigger        creates triggers in an area (quicker than a
+		     billion triggers)
+ trigger            pressure sensitive floor tile
+ wallswitch         must have a switch texure
+ primary            primary goal information
+ secondary          secondary goal information
+ bonustime          time for bonus items to respawn
+ levelscore         score to complete the level
+ spawntrigger       spawns a trigger at event
+ spawnsound         spawns sound effect at event
+ spawnfli           plays a fli file
+ spawnelevator      creates an elevator but doesn't activate it until eval
+ forceload          force sprites for a monster to be loaded
+
+
+Parameter Descriptions
+----------------------
+ x1         : upper left corner x position (0..XMAX)
+ y1         : upper left corner y position (0..YMAX)
+ x2         : lower right corner x position (0..XMAX && x2>=x1)
+ y2         : lower right corner y position (0..YMAX && y2>=y1)
+ eval       : event value to be broadcast or reacted upon (1..255)
+ removeable : if 0, erase after event, if 1, do not erase
+ endeval    : event value to broadcast after completed action
+ layer      : map layer (0..NUMLAYERS, see below)
+ mval       : new map layer value (0..255)
+ mrate      : rate to change from old value to new map value (1..255)
+	       1=slowest, 255=instantaneous
+ etype      : elevator type (0=start low, 1=start high)
+ upper      : highest height value for elevator (0..255 && upper>lower)
+ lower      : lowest height value for elevator (0..255)
+ speed      : rate of change for elevator (1..255, default=4 currently)
+ stype      : sprite number
+ ceval      : event value that sprite broadcasts when it croaks (0..255, 0
+	       is no broadcast)
+ def1       : lower difficulty value (0..MAXDIFF
+ def2       : upper difficulty value (0..MAXDIFF && def2>=def1)
+	       sprite is spawned only if the current difficulty level is
+	       between def1 & def2 inclusive.
+ x          : x map location (0..XMAX)
+ y          : y map location (0..YMAX)
+ pnum       : primary item number (0,1)
+ snum       : secondary item number (0..6)
+ psprite    : indexed number of the sprite for the item
+ val        : point value
+ total      : total number of this secondary item
+ time       : time in seconds (1..120)
+ teval      : trigger's new value removeable
+ snum       : sound effect number (see below)
+ fn         : fli file number
+ name       : lump name of sprite
+ n          : number of frames to load
+
+
+Examples & Possibilities
+------------------------
+1) sprite 1 50 0 23 0 0 3
+   sprite 1 50 0 24 0 4 5
+ means: a sprite with number 23 is spawned at location 1,50 at the beginning
+  (eval=0) if the difficulty level is between 0 and 3. a sprite with number
+  24 is spawned at 1,50 at the beginning if the difficulty is between 4 and
+  5.
+
+
+Layers
+------
+ NORTHWALL          0
+ NORTHFLAGS         1
+ WESTWALL           2
+ WESTFLAGS          3
+ FLOOR              4
+ FLOORFLAGS         5
+ CEILING            6
+ CEILINGFLAGS       7
+ FLOORHEIGHT        8
+ CEILINGHEIGHT      9
+ FLOORDEF           10
+ FLOORDEFFLAGS      11
+ CEILINGDEF         12
+ CEILINGDEFFLAGS    13
+ LIGHTS             14
+ EFFECTS            15
+
+
+Sound Effects (subject to change!)
+----------------------------------
+ SN_MON1_DIE        0
+ SN_MON3_WAKE       1
+ SN_MON3_FIRE       2
+ SN_MON3_DIE        3
+ SN_MON4_WAKE       4
+ SN_MON4_FIRE       5
+ SN_MON4_DIE        6
+ SN_MON5_WAKE       7
+ SN_MON5_FIRE       8
+ SN_MON5_DIE        9
+ SN_MON6_WAKE       10
+ SN_MON6_FIRE       11
+ SN_MON6_DIE        12
+ SN_MON7_WAKE       13
+ SN_MON7_FIRE       14
+ SN_MON7_DIE        15
+ SN_MONSTERBULLET1  16
+ SN_MONSTERBULLET2  17
+ SN_DOOR            18
+ SN_BULLET1         19
+ SN_BULLET3         20
+ SN_BULLET4         21
+ SN_BULLET5         22
+ SN_BULLET8         23
+ SN_BULLET9         24
+ SN_BULLET10        25
+ SN_BULLET12        26
+ SN_BULLET13        27
+ SN_EXPLODE1        28
+ SN_EXPLODE2        29
+ SN_PICKUP0         30
+ SN_PICKUP1         31
+ SN_PICKUP2         32
+ SN_PICKUP3         33
+ SN_PICKUP4         34
+ SN_HIT0            35
+ SN_HIT1            36
+ SN_HIT2            37
+ SN_HIT3            38
+ SN_HIT4            39
+ SN_DEATH0          40
+ SN_DEATH1          41
+ SN_DEATH2          42
+ SN_DEATH3          43
+ SN_DEATH4          44
+ SN_WEAPPICKUP0     45
+ SN_WEAPPICKUP1     46
+ SN_WEAPPICKUP2     47
+ SN_WEAPPICKUP3     48
+ SN_WEAPPICKUP4     49
+ SN_GRENADE         50
+ SN_TRIGGER         51
+ SN_NEXUS           52
+
+
+

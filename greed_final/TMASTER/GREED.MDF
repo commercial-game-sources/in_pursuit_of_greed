@@ -1,0 +1,64 @@
+REM            IN PURSUIT OF GREED
+REM            12-30-95
+REM            Created by:  Christopher Tallent
+REM
+REM
+~ Actions
+~
+FireGun = LCTL
+UseItem = X
+UseSwitch = SPC
+Escape = ESC
+~
+~
+~ General Controls
+~
+LookUp = PGUP
+LookDown = PGDN
+LookCenter = HOME
+StrafeLeft = ,
+StrafeRight = .
+InventLeft = INS
+InventRight = DEL
+ItemDisplay = TAB
+Pause = P
+~
+~
+~ Motion Control
+~
+Run = LSFT
+Strafe = LALT
+Jump = Z
+AutoRunToggle = CAPS
+~
+~
+~ HUD Commands
+~
+MapToggle = M
+HeatToggle = H
+MotionToggle = S
+ASSCam = A
+~
+~
+~ Guns
+~
+Gun1 = 1
+Gun2 = 2
+Gun3 = 3
+Gun4 = 4
+Gun5 = 5
+~
+~
+~
+~ Game Options
+~
+ScreenBigger = F10
+ScreenSmaller = F9
+Quit = F4
+Help = F1
+Mission = F5
+Song = F7
+~
+~
+rem 浜様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様融
+rem 藩様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様夕

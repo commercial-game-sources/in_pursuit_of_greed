@@ -1,0 +1,19 @@
+CC       = wcc
+LD       = wcl
+EXE      = SERGREED
+CFLAGS   = /ms /zq /oeatx /zp4 /5 /w9 /fp5 /ei 
+LFLAGS   = /lr /zq /fe=$(EXE)
+OBJS     = sergreed.obj modem.obj com.obj greednet.obj
+
+$(EXE).exe: $(OBJS) 
+	$(LD) $(LFLAGS) *.obj
+	copy *.exe ..
+
+.c.obj: .AUTODEPEND
+	$(CC) $(CFLAGS) $[*
+
+clean:
+	del *.err
+	del *.lst
+	del *.map
+	del *.exe

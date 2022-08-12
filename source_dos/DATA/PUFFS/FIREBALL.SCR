@@ -1,0 +1,29 @@
+;spread gun bullets (8 sides)
+spread_b1       dsprite 200 7 21 19
+spread_b2       dsprite 228 7 23 18
+spread_b3       dsprite 257 7 34 19
+spread_b4       dsprite 294 7 23 19
+spread_b5       dsprite 200 29 21 18
+spread_b6       dsprite 225 29 24 18
+spread_b7       dsprite 255 29 33 18
+spread_b8       dsprite 292 29 23 18
+
+;flame thrower sprites (8 sides)
+flamer_b1       dsprite 88 52 30 22
+flamer_b2       dsprite 126 51 42 23
+flamer_b3       dsprite 178 51 69 23
+flamer_b4       dsprite 252 51 42 23
+flamer_b5       dsprite 88 81 30 23
+flamer_b6       dsprite 126 81 42 23
+flamer_b7       dsprite 178 81 69 23
+flamer_b8       dsprite 252 81 42 23
+
+;specimen 7 bullets
+s7bull_1        dsprite 18 119 20 18  
+s7bull_2        dsprite 48 117 24 23
+s7bull_3        dsprite 81 117 29 22
+
+;wierd blue stuff
+wierd1_1        dsprite 127 143 26 20
+wierd1_2        dsprite 159 143 24 20
+wierd1_3        dsprite 188 143 26 20

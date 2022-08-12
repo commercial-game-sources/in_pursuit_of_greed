@@ -1,0 +1,5 @@
+firewall1       dsprite 0 0 64 128
+firewall2       dsprite 69 0 64 128
+firewall3       dsprite 138 0 64 128
+firewall4       dsprite 207 0 64 128
+

@@ -1,0 +1,18 @@
+gendecoy1 dsprite 1 1 43 48
+gendecoy2 dsprite 45 1 43 48
+gendecoy3 dsprite 89 1 43 48 
+gendecoy4 dsprite 133 1 43 48
+genwall1 dsprite 1 50 43 48
+genwall2 dsprite 45 50 43 48
+genwall3 dsprite 89 50 43 48
+genwall4 dsprite 133 50 43 48
+genclone1 dsprite 1 99 43 48 
+genclone2 dsprite 45 99 43 48
+genclone3 dsprite 89 99 43 48
+genclone4 dsprite 133 99 43 48
+genholo1 dsprite 1 148 43 48 
+genholo2 dsprite 45 148 43 48
+genholo3 dsprite 89 148 43 48
+genholo4 dsprite 133 148 43 48
+
+

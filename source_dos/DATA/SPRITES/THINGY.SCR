@@ -1,0 +1,10 @@
+bigmachine1     dsprite 13 8 65 104
+smallmachine1   dsprite 115 75 22 38
+controlport     dsprite 165 75 25 38
+dangercone      dsprite 214 77 38 36
+lightmace       dsprite 13 131 24 40
+speakers        dsprite 54 127 55 39
+ltroundsmall    dsprite 126 131 30 36
+ltroundbig      dsprite 162 131 42 51
+pointything     dsprite 213 133 40 49
+

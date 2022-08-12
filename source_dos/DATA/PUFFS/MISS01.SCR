@@ -1,0 +1,8 @@
+missile1        dsprite 22 11 56 47
+missile2        dsprite 109 11 73 50
+missile3        dsprite 201 11 94 48
+missile4        dsprite 11 70 72 46
+missile5        dsprite 96 69 55 46
+missile6        dsprite 169 70 73 48
+missile7        dsprite 12 128 93 46
+missile8        dsprite     125 128 73 46

@@ -1,0 +1,10 @@
+rem ** Deathmatch Level - Warped **
+rem **
+rem ** 
+wallswitch 44 20 1
+mapzone 39 14 42 17 1 0 9 255 2 1
+mapzone 39 14 42 14 1 0 14 100 1 1
+mapzone 39 17 42 17 1 0 14 100 1 1
+mapzone 39 15 42 16 1 0 14 60 2 1
+
+end of file

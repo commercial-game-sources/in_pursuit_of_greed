@@ -1,0 +1,8 @@
+yarkstatue dsprite 1 1 93 196
+grenadeshot1 dsprite 100 1 12 17
+grenadeshot2 dsprite 121 1 28 17
+grenadeshot3 dsprite 157 1 10 18
+grenadeshot4 dsprite 175 1 28 17
+starwall1    dsprite 106 21 64 176
+starwall2    dsprite 197 21 64 176
+

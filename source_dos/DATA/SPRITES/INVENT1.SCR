@@ -1,0 +1,15 @@
+inmedtube dsprite 1 1 30 30
+inshield  dsprite 32 1 30 30 
+ingrenade dsprite 63 1 30 30 
+inrevpill dsprite 94 1 30 30
+inproxmine dsprite 125 1 30 30
+intimemine dsprite 156 1 30 30
+indecoy   dsprite 187 1 30 30
+inwall    dsprite 218 1 30 30
+inclone   dsprite 249 1 30 30
+inholo    dsprite 280 1 30 30
+inhole    dsprite 1 32 30 30
+ininvis   dsprite 32 32 30 30
+injammer dsprite 63 32 30 30
+instealer dsprite 94 32 30 30
+

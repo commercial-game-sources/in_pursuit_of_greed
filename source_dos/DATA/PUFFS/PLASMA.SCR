@@ -1,0 +1,23 @@
+yellowball      dsprite 65      58      6       6
+greenball_0     dsprite 20      19      19      15
+greenball_1     dsprite 20      38      19      15
+plasmaball      dsprite 24      62      10      10
+blood_1         dsprite 100     60      8       8
+blood_2         dsprite 92      36      22      17
+blood_3         dsprite 116     51      26      25
+blood_4         dsprite 122     36      15      13
+puff_1          dsprite 94      25      7       8
+puff_2          dsprite 106     19      8       14
+puff_3          dsprite 119     19      7       14
+puff_4          dsprite 133     22      7       11
+puff_5          dsprite 144     25      4       5
+gpuff_1         dsprite 181     36      25      23
+gpuff_2         dsprite 248     105     31      32
+gpuff_3         dsprite 242     25      46      43
+gpuff_4         dsprite 171     101     42      41
+ppuff_1         dsprite 96      97      15      19
+ppuff_2         dsprite 126     92      17      19
+ppuff_3         dsprite 93      119     26      30
+ppuff_4         dsprite 122     113     28      37
+ppuff_5         dsprite 44      92      31      40
+

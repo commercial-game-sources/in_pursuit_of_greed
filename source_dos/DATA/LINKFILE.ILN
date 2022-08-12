@@ -1,0 +1,3180 @@
+greed.blo
+
+;* sound effects ***********************************
+label            soundeffects
+ ; guard sounds *******************
+wav\veekn2-2.wav
+wav\veekn2-1.wav
+wav\veekn2-3.wav
+ ; trooper sounds *****************
+wav\veekn1-1.wav
+wav\veekn1-2.wav
+wav\veekn1-3.wav
+ ; prisoner sounds ****************
+wav\priest1.wav
+wav\priest2.wav
+wav\priest3.wav
+ ; big guard **********************
+wav\biggd1.wav
+wav\biggd2.wav
+wav\biggd3.wav
+ ; door sound
+wav\fx-00.wav
+ ; weapons sounds
+wav\gun4.wav
+wav\explode1.wav
+wav\spread2.wav
+wav\vulcan.wav
+wav\swish.wav
+wav\laser1.wav
+wav\sp7gun2.wav
+wav\gn-04.wav
+wav\catlprod.wav
+ ; explosion sounds **************
+wav\explode.wav
+wav\explode2.wav
+ ; individual char's sounds  ******************
+wav\psy-0.wav      ; pickup sounds
+wav\liz-0.wav
+wav\moo-0.wav
+wav\spec-0.wav
+wav\trix-0.wav
+wav\psy-1.wav      ; hit sounds
+wav\liz-1.wav
+wav\moo-1.wav
+wav\spec-1.wav
+wav\trix-1.wav
+wav\psy-2.wav      ; death sounds
+wav\liz-2.wav
+wav\moo.wav      
+wav\spec-2.wav
+wav\trix-2.wav
+wav\psy-3.wav      ; weapon pickup sounds
+wav\liz-3.wav      
+wav\moo-3.wav
+wav\spec-3.wav
+wav\trix-3.wav
+wav\grenade.wav    ; tossing grenade
+wav\trigplat.wav   ; pressure plate
+wav\nexus.wav      ; nexus generation
+wav\alarm1.wav     ; fli #1 sound
+wav\elevhit1.wav   ; elevator start
+wav\elevhit2.wav   ; elevator stop
+wav\pristrig.wav   ; wall switch
+wav\mobius.wav     ; mobius device shot                   
+wav\kmanwk.wav     
+wav\kmanfi.wav
+wav\kmandy.wav
+wav\kfemwk.wav
+wav\kfemfi.wav
+wav\kfemdy.wav
+wav\kprobwk.wav
+wav\kprobfi.wav
+wav\kprobdy.wav
+wav\kbotwk.wav
+wav\kbotfi.wav
+wav\kbotdy.wav
+wav\kbosswk.wav
+wav\kbossfi.wav
+wav\kbossdy.wav
+wav\pbosswk.wav
+wav\pbossfi.wav
+wav\pbossdy.wav
+wav\pstwk.wav
+wav\pstfi.wav
+wav\pstdy.wav
+wav\psswk.wav
+wav\pssfi.wav
+wav\pssdy.wav
+wav\wizwk.wav
+wav\wizfi.wav
+wav\wizdy.wav
+wav\veekwk.wav
+wav\veekfi.wav
+wav\veekdy.wav
+wav\tbosswk.wav
+wav\tbossfi.wav
+wav\tbossdy.wav
+wav\warp.wav            ;monster warp in sound
+
+;* color palette ***********************************
+palette.dat     palette
+;* color lookup table for shading ******************
+lights.dat      lights
+
+;* maps ********************************************
+LABEL           map
+prison\level1.lay      level1.lay
+prison\level2.lay      level2.lay
+prison\level3.lay      level3.lay
+prison\level4.lay      level4.lay
+prison\level5.lay      level5.lay
+prison\level6.lay      level6.lay
+prison\level7.lay      level7.lay
+prison\level8.lay      level8.lay
+temple\level9.lay      level9.lay
+temple\level10.lay     level10.lay
+temple\level11.lay     level11.lay
+temple\level12.lay     level12.lay
+temple\level13.lay     level13.lay
+temple\level14.lay     level14.lay
+temple\level15.lay     level15.lay
+temple\level16.lay     level16.lay
+kaal\kaal1.lay         kaal1.lay
+kaal\kaal2.lay         kaal2.lay
+kaal\kaal3.lay         kaal3.lay
+kaal\kaal4.lay         kaal4.lay
+kaal\kaal5.lay         kaal5.lay
+kaal\kaal6.lay         kaal6.lay
+
+; deathmatch levels
+death\level4.lay      level4.lay
+death\small1.lay      small1.lay
+death\lavacave.lay    lavacave.lay
+death\court.lay       court.lay
+death\surprise.lay    surprise.lay
+death\pillars.lay     pillars.lay
+death\castle.lay      castle.lay
+death\sewers.lay      sewers.lay
+death\large1.lay      large1.lay
+death\for8play.lay    for8play.lay
+
+LABEL           sux
+prison\level1.sux      level1.sux
+prison\level2.sux      level2.sux
+prison\level3.sux      level3.sux
+prison\level4.sux      level1.sux
+prison\level5.sux      level1.sux
+prison\level6.sux      level1.sux
+prison\level7.sux      level1.sux
+prison\level8.sux      level1.sux
+temple\level9.sux      level1.sux
+temple\level10.sux     level10.sux
+temple\level11.sux     level11.sux
+temple\level12.sux     level12.sux
+temple\level13.sux     level13.sux
+temple\level14.sux     level14.sux
+temple\level15.sux     level15.sux
+temple\level16.sux     level16.sux
+kaal\kaal1.sux         kaal1.sux
+kaal\kaal2.sux         kaal2.sux
+kaal\kaal3.sux         kaal3.sux
+kaal\kaal4.sux         kaal4.sux
+kaal\kaal5.sux         kaal5.sux
+kaal\kaal6.sux         kaal6.sux
+
+; deathmatch levels
+death\level4.sux      level4.sux
+death\small1.sux      small1.sux
+death\lavacave.sux    lavacave.sux
+death\court.sux       court.sux
+death\surprise.sux    surprise.sux
+death\pillars.sux     pillars.sux
+death\castle.sux      castle.sux
+death\sewers.sux      sewers.sux
+death\large1.sux      large1.sux
+death\for8play.sux    for8play.sux
+
+;* transparency lookup table ************************
+tranlght.dat    transparency
+;* warping lookup table *****************************
+warplght.dat    warplights
+
+;* sky backdrops ************************************
+ $OPENCOMP       sky\skya
+ backdrop1       backdrop
+ $OPENCOMP       sky\skyb
+ backdrop2
+
+ $OPENCOMP       sky\back1b
+ backdrop1       backdrop2
+ $OPENCOMp       sky\back2b
+ backdrop2   
+
+;* digital font *************************************
+ $OPENCOMP       fonts\font3
+ font3.dat       font1
+;* normal font **************************************
+ $OPENCOMP       fonts\fontdigi
+ font2           font2
+;* big digital digits *******************************
+ $OPENCOMP       fonts\fontx
+ font4.dat       font3
+
+;* status bars **************************************
+$OPENCOMP       menus\statbars
+statbar1        statbar1
+statbar2        statbar2
+statbar3        statbar3
+statbar4        statbar4
+
+;* weapons ******************************************
+$OPENCOMP       guns\pistol1
+pistol_1        gun2
+pistol_2
+$OPENCOMP       guns\pistol2
+pistol_3
+$OPENCOMP       guns\vulcan1
+vulcan_1        gun3
+vulcan_2
+$OPENCOMP       guns\vulcan2
+vulcan_3
+vulcan_4
+$OPENCOMP       guns\flamer
+flamer_1        gun4
+flamer_2
+flamer_2
+flamer_2
+$OPENCOMP       guns\spreadgn
+spread1         gun5
+spread2
+spread3
+spread1
+$OPENCOMP       guns\trixgun
+trix_1          gunprong
+trix_2
+trix_3
+$OPENCOMP       guns\gunsquar
+gunsquare1      gunsquar
+gunsquare2
+gunsquare3
+$OPENCOMP       guns\gunknife
+gunknife1       gunknife
+gunknife2
+gunknife3
+gunknife4
+$OPENCOMP       guns\gunspec7
+gunspec7_1      gunspec7
+gunspec7_2
+gunspec7_3
+gunspec7_4
+$OPENCOMP       guns\bow1
+bow_1           guncross
+bow_2
+$OPENCOMP       guns\bow2
+bow_3
+$OPENCOMP       guns\gunmoo
+gunmoo1         gunmoo
+gunmoo2
+gunmoo3
+$OPENCOMP       guns\s7weapon
+s7weapon3       s7weapon
+s7weapon2
+s7weapon1
+$OPENCOMP       guns\catlprod
+catlprod1       catlprod
+catlprod2
+catlprod3
+$OPENCOMP       guns\greengun
+greengun_1      greengun
+greengun_2
+greengun_1
+greengun_1
+greengun_1
+$OPENCOMP       guns\bluegun1
+bluegun_1       bluegun
+bluegun_2
+$OPENCOMP       guns\bluegun2
+bluegun_3
+$OPENCOMP       guns\redgun
+redgun_1        redgun
+redgun_2
+$OPENCOMP       guns\domknife
+domknife1       domknife
+domknife2
+domknife3
+
+;* Demand Load Sprites *****************************
+
+LABEL STARTDEMAND
+
+;- MONSTERS ----------------------------------------
+
+;- Prison Guard (Armored Suit)----------------------
+$OPENCOMP       monsters\guard\guard1-1
+guard1          guard
+guard2
+$OPENCOMP       monsters\guard\guard1-2
+guard3
+guard4
+$OPENCOMP       monsters\guard\guard1-3
+guard5
+guard6
+$OPENCOMP       monsters\guard\guard1-4
+guard7
+guard8
+$OPENCOMP       monsters\guard\guard2-1
+guard9
+guard10
+$OPENCOMP       monsters\guard\guard2-2
+guard11
+guard12
+guard13
+$OPENCOMP       monsters\guard\guard2-3
+guard14
+guard15
+guard16
+$OPENCOMP       monsters\guard\guard3-1
+guard17
+guard18
+$OPENCOMP       monsters\guard\guard3-2
+guard19
+guard20
+$OPENCOMP       monsters\guard\guard3-3
+guard21
+guard22
+$OPENCOMP       monsters\guard\guard3-4
+guard23
+guard24
+$OPENCOMP       monsters\guard\guard4-1
+guardfi_1
+guardfi_2
+$OPENCOMP       monsters\guard\guard4-2
+guardfi_3
+guardfi_4
+$OPENCOMP       monsters\guard\guard4-3
+guardfi_5
+guardfi_6
+$OPENCOMP       monsters\guard\guard4-4
+guardfi_7
+guardfi_8
+$OPENCOMP       monsters\guard\guard4-1
+guardfi_1
+guardfi_2
+$OPENCOMP       monsters\guard\guard4-2
+guardfi_3
+guardfi_4
+$OPENCOMP       monsters\guard\guard4-3
+guardfi_5
+guardfi_6
+$OPENCOMP       monsters\guard\guard4-4
+guardfi_7
+guardfi_8
+$OPENCOMP       monsters\guard\guard5-1
+guardht_1
+guardht_2
+$OPENCOMP       monsters\guard\guard5-2
+guardht_3
+guardht_4
+guardht_5
+$OPENCOMP       monsters\guard\guard5-3
+guardht_6
+guardht_7
+guardht_8
+$OPENCOMP       monsters\guard\guard6-1
+guarddy_1
+$OPENCOMP       monsters\guard\guard6-2
+guarddy_2
+guarddy_3
+guarddy_4
+$OPENCOMP       monsters\guard\guard6-3
+guarddy_5
+guarddy_6
+guarddy_7
+guarddy_8
+
+;- Prison Guard (Unarmored) ------------------------
+$OPENCOMP       monsters\troop\troop1-1
+troop1          trooper
+troop2
+troop3
+$OPENCOMP       monsters\troop\troop1-2
+troop4
+troop5
+troop6
+$OPENCOMP       monsters\troop\troop1-3
+troop7
+troop8
+$OPENCOMP       monsters\troop\troop2-1
+troop9
+troop10
+troop11
+troop12
+$OPENCOMP       monsters\troop\troop2-2
+troop13
+troop14
+troop15
+troop16
+$OPENCOMP       monsters\troop\troop3-1
+troop17
+troop18
+$OPENCOMP       monsters\troop\troop3-2
+troop19
+troop20
+troop21
+$OPENCOMP       monsters\troop\troop3-3
+troop22
+troop23
+troop24
+$OPENCOMP       monsters\troop\troop4-1
+troopfi_1
+troopfi_2
+$OPENCOMP       monsters\troop\troop4-2
+troopfi_3
+troopfi_4
+troopfi_5
+$OPENCOMP       monsters\troop\troop4-3
+troopfi_6
+troopfi_7
+troopfi_8
+$OPENCOMP       monsters\troop\troop7-1
+troopfi2-1
+troopfi2-2
+troopfi2-3
+troopfi2-4
+$OPENCOMP       monsters\troop\troop7-2
+troopfi2-5
+troopfi2-6
+troopfi2-7
+troopfi2-8
+$OPENCOMP       monsters\troop\troop5-1
+troopht_1
+troopht_2
+troopht_3
+troopht_4
+$OPENCOMP       monsters\troop\troop5-2
+troopht_5
+troopht_6
+troopht_7
+troopht_8
+$OPENCOMP       monsters\troop\troop6-1
+troopdy_1
+troopdy_2
+$OPENCOMP       monsters\troop\troop6-2
+troopdy_3
+troopdy_4
+$OPENCOMP       monsters\troop\troop6-3
+troopdy_5
+troopdy_6
+troopdy_7
+troopdy_8
+
+;----------prisoners-------------------------------
+$OPENCOMP       monsters\prisoner\prsnr2-1
+pris9           prisoner
+pris10
+pris11
+$OPENCOMP       monsters\prisoner\prsnr2-2
+pris12
+pris13
+pris14
+$OPENCOMP       monsters\prisoner\prsnr2-3
+pris15
+pris16
+$OPENCOMP       monsters\prisoner\prsnr1-1
+pris1           
+pris2
+pris3
+pris4
+$OPENCOMP       monsters\prisoner\prsnr1-2
+pris5
+pris6
+pris7
+pris8
+$OPENCOMP       monsters\prisoner\prsnr3-1
+pris17
+pris18
+$OPENCOMP       monsters\prisoner\prsnr3-2
+pris19
+pris20
+pris21
+$OPENCOMP       monsters\prisoner\prsnr3-3
+pris22
+pris23
+pris24
+$OPENCOMP       monsters\prisoner\prsnr4-1
+prisfi1
+$OPENCOMP       monsters\prisoner\prsnr4-2
+prisfi2
+prisfi3
+$OPENCOMP       monsters\prisoner\prsnr4-3
+prisfi4
+prisfi5
+prisfi6
+$OPENCOMP       monsters\prisoner\prsnr4-4
+prisfi7
+prisfi8
+$OPENCOMP       monsters\prisoner\prsnr4-1
+prisfi1
+$OPENCOMP       monsters\prisoner\prsnr4-2
+prisfi2
+prisfi3
+$OPENCOMP       monsters\prisoner\prsnr4-3
+prisfi4
+prisfi5
+prisfi6
+$OPENCOMP       monsters\prisoner\prsnr4-4
+prisfi7
+prisfi8
+$OPENCOMP       monsters\prisoner\prsnr5-1
+prisht1
+prisht2
+$OPENCOMP       monsters\prisoner\prsnr5-2
+prisht3
+prisht4
+prisht5
+$OPENCOMP       monsters\prisoner\prsnr5-3
+prisht6
+prisht7
+prisht8
+$OPENCOMP       monsters\prisoner\prsnr6-1
+prisdy1
+prisdy2
+$OPENCOMP       monsters\prisoner\prsnr6-2
+prisdy3
+prisdy4
+$OPENCOMP       monsters\prisoner\prsnr6-3
+prisdy5
+prisdy6
+prisdy7
+prisdy8
+
+;-big robot guard ----------------------------------
+$OPENCOMP       monsters\bigguard\bigbt2-1
+bigbt9          bigguard
+bigbt10
+$OPENCOMP       monsters\bigguard\bigbt2-2
+bigbt11
+bigbt12
+$OPENCOMP       monsters\bigguard\bigbt2-3
+bigbt13 
+bigbt14
+$OPENCOMP       monsters\bigguard\bigbt2-4
+bigbt15
+bigbt16
+$OPENCOMP       monsters\bigguard\bigbt1-1
+bigbt1
+bigbt2
+$OPENCOMP       monsters\bigguard\bigbt1-2
+bigbt3
+bigbt4
+$OPENCOMP       monsters\bigguard\bigbt1-3
+bigbt5
+bigbt6
+$OPENCOMP       monsters\bigguard\bigbt1-4
+bigbt7
+bigbt8
+$OPENCOMP       monsters\bigguard\bigbt3-1
+bigbt17
+bigbt18
+$OPENCOMP       monsters\bigguard\bigbt3-2
+bigbt19
+bigbt20
+$OPENCOMP       monsters\bigguard\bigbt3-3
+bigbt21
+bigbt22
+$OPENCOMP       monsters\bigguard\bigbt3-4
+bigbt23
+bigbt24
+$OPENCOMP       monsters\bigguard\bigbt4-1
+bigbtf1-1
+bigbtf1-2
+$OPENCOMP       monsters\bigguard\bigbt4-2
+bigbtf1-3
+bigbtf1-4
+$OPENCOMP       monsters\bigguard\bigbt4-3
+bigbtf1-5
+bigbtf1-6
+$OPENCOMP       monsters\bigguard\bigbt4-4
+bigbtf1-7
+bigbtf1-8
+$OPENCOMP       monsters\bigguard\bigbt4-1
+bigbtf1-1
+bigbtf1-2
+$OPENCOMP       monsters\bigguard\bigbt4-2
+bigbtf1-3
+bigbtf1-4
+$OPENCOMP       monsters\bigguard\bigbt4-3
+bigbtf1-5
+bigbtf1-6
+$OPENCOMP       monsters\bigguard\bigbt4-4
+bigbtf1-7
+bigbtf1-8
+$OPENCOMP       monsters\bigguard\bigbt5-1
+bigbtht1
+bigbtht2
+$OPENCOMP       monsters\bigguard\bigbt5-2
+bigbtht3
+bigbtht4
+$OPENCOMP       monsters\bigguard\bigbt5-3
+bigbtht5
+bigbtht6
+$OPENCOMP       monsters\bigguard\bigbt5-4
+bigbtht7
+bigbtht8
+
+;--- Prison Boss -------------------------
+$OPENCOMP       monsters\pboss\pbosslt1
+pbosslt1        pboss
+pbosslt2
+$OPENCOMP       monsters\pboss\pbosslt2
+pbosslt3
+pbosslt4
+$OPENCOMP       monsters\pboss\pbosslt3
+pbosslt5
+pbosslt6
+$OPENCOMP       monsters\pboss\pbosslt4
+pbosslt7
+pbosslt8
+$OPENCOMP       monsters\pboss\pbossls1
+pbossls1
+pbossls2
+$OPENCOMP       monsters\pboss\pbossls2
+pbossls3
+pbossls4
+$OPENCOMP       monsters\pboss\pbossls3
+pbossls5
+pbossls6
+$OPENCOMP       monsters\pboss\pbossls4
+pbossls7
+pbossls8
+$OPENCOMP       monsters\pboss\pbossrs1
+pbossrs1
+pbossrs2
+$OPENCOMP       monsters\pboss\pbossrs2
+pbossrs3
+pbossrs4
+$OPENCOMP       monsters\pboss\pbossrs3
+pbossrs5
+pbossrs6
+$OPENCOMP       monsters\pboss\pbossrs4
+pbossrs7
+pbossrs8
+$OPENCOMP       monsters\pboss\pbossrt1
+pbossrt1
+pbossrt2
+$OPENCOMP       monsters\pboss\pbossrt2
+pbossrt3
+pbossrt4
+$OPENCOMP       monsters\pboss\pbossrt3
+pbossrt5
+pbossrt6
+$OPENCOMP       monsters\pboss\pbossrt4
+pbossrt7
+pbossrt8
+$OPENCOMP       monsters\pboss\pbossfi1
+pbossfi1
+pbossfi2
+$OPENCOMP       monsters\pboss\pbossfi2
+pbossfi3
+pbossfi4
+$OPENCOMP       monsters\pboss\pbossfi3
+pbossfi5
+pbossfi6
+$OPENCOMP       monsters\pboss\pbossfi4
+pbossfi7
+pbossfi8
+$OPENCOMP       monsters\pboss\pbossht1
+pbossht1
+pbossht2
+$OPENCOMP       monsters\pboss\pbossht2
+pbossht3
+pbossht4
+$OPENCOMP       monsters\pboss\pbossht3
+pbossht5        
+pbossht6
+$OPENCOMP       monsters\pboss\pbossht4
+pbossht7
+pbossht8
+
+;--- kaal man ---------------------------
+$OPENCOMP       monsters\kman\kmanlt1
+kmanlt1         kman
+kmanlt2
+kmanlt3
+$OPENCOMP       monsters\kman\kmanlt2
+kmanlt4
+kmanlt5
+kmanlt6
+$OPENCOMP       monsters\kman\kmanlt3
+kmanlt7
+kmanlt8
+$OPENCOMP       monsters\kman\kmanls1
+kmanls1
+kmanls2
+kmanls3
+$OPENCOMP       monsters\kman\kmanls2
+kmanls4
+kmanls5
+kmanls6
+$OPENCOMP       monsters\kman\kmanls3
+kmanls7
+kmanls8
+$OPENCOMP       monsters\kman\kmanrs1
+kmanrs1
+kmanrs2
+kmanrs3
+$OPENCOMP       monsters\kman\kmanrs2
+kmanrs4
+kmanrs5
+kmanrs6
+$OPENCOMP       monsters\kman\kmanrs3
+kmanrs7
+kmanrs8
+$OPENCOMP       monsters\kman\kmanrt1
+kmanrt1
+kmanrt2
+kmanrt3
+$OPENCOMP       monsters\kman\kmanrt2
+kmanrt4
+kmanrt5
+kmanrt6
+$OPENCOMP       monsters\kman\kmanrt3
+kmanrt7
+kmanrt8
+$OPENCOMP       monsters\kman\kmanfi1
+kmanfi1
+kmanfi2
+kmanfi3
+$OPENCOMP       monsters\kman\kmanfi2
+kmanfi4
+kmanfi5
+kmanfi6
+$OPENCOMP       monsters\kman\kmanfi3
+kmanfi7
+kmanfi8
+$OPENCOMP       monsters\kman\kmanht1
+kmanht1
+kmanht2
+kmanht3
+$OPENCOMP       monsters\kman\kmanht2
+kmanht4
+kmanht5
+kmanht6
+$OPENCOMP       monsters\kman\kmanht3
+kmanht7
+kmanht8
+$OPENCOMP       monsters\kman\kmandy1
+kmandy1
+kmandy2
+kmandy3
+$OPENCOMP       monsters\kman\kmandy2
+kmandy4
+kmandy5
+kmandy6
+kmandy7
+kmandy8
+
+;- KAAL FEMALE GUARD--------------------------------
+$OPENCOMP       monsters\kfem\kfemlt1
+kfemlt1         kfem
+kfemlt2
+kfemlt3
+$OPENCOMP       monsters\kfem\kfemlt2
+kfemlt4
+kfemlt5
+kfemlt6
+$OPENCOMP       monsters\kfem\kfemlt3
+kfemlt7
+kfemlt8
+$OPENCOMP       monsters\kfem\kfemls1
+kfemls1
+kfemls2
+kfemls3
+$OPENCOMP       monsters\kfem\kfemls2
+kfemls4
+kfemls5
+kfemls6
+$OPENCOMP       monsters\kfem\kfemls3
+kfemls7
+kfemls8
+$OPENCOMP       monsters\kfem\kfemrs1
+kfemrs1
+kfemrs2
+kfemrs3
+$OPENCOMP       monsters\kfem\kfemrs2
+kfemrs4
+kfemrs5
+kfemrs6
+$OPENCOMP       monsters\kfem\kfemrs3
+kfemrs7
+kfemrs8
+$OPENCOMP       monsters\kfem\kfemrt1
+kfemrt1
+kfemrt2
+kfemrt3
+$OPENCOMP       monsters\kfem\kfemrt2
+kfemrt4
+kfemrt5
+kfemrt6
+$OPENCOMP       monsters\kfem\kfemrt3
+kfemrt7
+kfemrt8
+$OPENCOMP       monsters\kfem\kfemfi1
+kfemfi1
+kfemfi2
+kfemfi3
+$OPENCOMP       monsters\kfem\kfemfi2
+kfemfi4
+kfemfi5
+kfemfi6
+$OPENCOMP       monsters\kfem\kfemfi3
+kfemfi7
+kfemfi8
+$OPENCOMP       monsters\kfem\kfemht1
+kfemht1
+kfemht2
+kfemht3
+$OPENCOMP       monsters\kfem\kfemht2
+kfemht4
+kfemht5
+kfemht6
+$OPENCOMP       monsters\kfem\kfemht3
+kfemht7
+kfemht8
+$OPENCOMP       monsters\kfem\kfemdy1
+kfemdy1
+kfemdy2
+kfemdy3
+$OPENCOMP       monsters\kfem\kfemdy2
+kfemdy4
+kfemdy5
+$OPENCOMP       monsters\kfem\kfemdy3
+kfemdy6
+kfemdy7
+kfemdy8
+
+;--kaal robot---------------------------------------
+$OPENCOMP       monsters\kbot\kbotlt1
+kbotlt1         kbot
+kbotlt2
+$OPENCOMP       monsters\kbot\kbotlt2
+kbotlt3
+$OPENCOMP       monsters\kbot\kbotlt3
+kbotlt4
+kbotlt5
+$OPENCOMP       monsters\kbot\kbotlt4
+kbotlt6
+$OPENCOMP       monsters\kbot\kbotlt5
+kbotlt7
+kbotlt8
+$OPENCOMP       monsters\kbot\kbotls1
+kbotls1
+kbotls2
+$OPENCOMP       monsters\kbot\kbotls2
+kbotls3
+kbotls4
+$OPENCOMP       monsters\kbot\kbotls3
+kbotls5
+kbotls6
+kbotls7
+kbotls8
+$OPENCOMP       monsters\kbot\kbotrs1
+kbotrs1
+kbotrs2
+kbotrs3
+kbotrs4
+$OPENCOMP       monsters\kbot\kbotrs2
+kbotrs5
+kbotrs6
+kbotrs7
+kbotrs8
+$OPENCOMP       monsters\kbot\kbotrt1
+kbotrt1
+kbotrt2
+$OPENCOMP       monsters\kbot\kbotrt2
+kbotrt3
+$OPENCOMP       monsters\kbot\kbotrt3
+kbotrt4
+kbotrt5
+$OPENCOMP       monsters\kbot\kbotrt4
+kbotrt6
+$OPENCOMP       monsters\kbot\kbotrt5
+kbotrt7
+kbotrt8
+$OPENCOMP       monsters\kbot\kbotfi1
+kbotfi1
+kbotfi2
+kbotfi3
+kbotfi4
+$OPENCOMP       monsters\kbot\kbotfi2
+kbotfi5 
+kbotfi6
+kbotfi7
+kbotfi8
+$OPENCOMP       monsters\kbot\kbotht1
+kbotht1
+kbotht2
+kbotht3
+kbotht4
+$OPENCOMP       monsters\kbot\kbotht2
+kbotht5
+kbotht6
+kbotht7
+kbotht8
+
+;-kprob---------------------------------------------
+$OPENCOMP       monsters\kprob\kprobmv1
+kprobmv1        kprob
+kprobmv2
+kprobmv3
+kprobmv4
+kprobmv5
+kprobmv6
+kprobmv7
+kprobmv8
+$OPENCOMP       monsters\kprob\kprobmv1
+kprobmv1
+kprobmv2
+kprobmv3
+kprobmv4
+kprobmv5
+kprobmv6
+kprobmv7
+kprobmv8
+$OPENCOMP       monsters\kprob\kprobmv1
+kprobmv1
+kprobmv2
+kprobmv3
+kprobmv4
+kprobmv5
+kprobmv6
+kprobmv7
+kprobmv8
+$OPENCOMP       monsters\kprob\kprobmv1
+kprobmv1
+kprobmv2
+kprobmv3
+kprobmv4
+kprobmv5
+kprobmv6
+kprobmv7
+kprobmv8
+$OPENCOMP       monsters\kprob\kprobfi1
+kprobfi1
+kprobfi2
+kprobfi3
+kprobfi4
+kprobfi5
+kprobfi6
+kprobfi7
+kprobfi8
+$OPENCOMP       monsters\kprob\kprobht1
+kprobht1
+kprobht2
+kprobht3
+kprobht4
+kprobht5
+kprobht6
+$OPENCOMP       monsters\kprob\kprobht2
+kprobht7
+kprobht8
+$OPENCOMP       monsters\kprob\kprobdy1
+kprobdy1
+kprobdy2
+kprobdy3
+kprobdy4
+kprobdy5
+kprobdy6
+kprobdy7
+kprobdy8
+
+;-KAAL boss-----------------------------------------
+$OPENCOMP       monsters\kboss\kbosslt1
+kbosslt1        kboss
+kbosslt2
+kbosslt3
+$OPENCOMP       monsters\kboss\kbosslt2
+kbosslt4
+kbosslt5
+kbosslt6
+$OPENCOMP       monsters\kboss\kbosslt3
+kbosslt7
+kbosslt8
+$OPENCOMP       monsters\kboss\kbossls1
+kbossls1
+kbossls2
+kbossls3
+$OPENCOMP       monsters\kboss\kbossls2
+kbossls4
+kbossls5
+kbossls6
+$OPENCOMP       monsters\kboss\kbossls3
+kbossls7
+kbossls8
+$OPENCOMP       monsters\kboss\kbossrs1
+kbossrs1
+kbossrs2
+kbossrs3
+$OPENCOMP       monsters\kboss\kbossrs2
+kbossrs4
+kbossrs5
+kbossrs6
+$OPENCOMP       monsters\kboss\kbossrs3
+kbossrs7
+kbossrs8
+$OPENCOMP       monsters\kboss\kbossrt1
+kbossrt1
+kbossrt2
+kbossrt3
+$OPENCOMP       monsters\kboss\kbossrt2
+kbossrt4
+kbossrt5
+kbossrt6        
+$OPENCOMP       monsters\kboss\kbossrt3
+kbossrt7
+kbossrt8
+$OPENCOMP       monsters\kboss\kbossfi1
+kbossfi1
+kbossfi2
+kbossfi3
+$OPENCOMP       monsters\kboss\kbossfi2
+kbossfi4
+kbossfi5
+kbossfi6
+$OPENCOMP       monsters\kboss\kbossfi3
+kbossfi7
+kbossfi8
+$OPENCOMP       monsters\kboss\kbossht1
+kbossht1
+kbossht2
+kbossht3
+$OPENCOMP       monsters\kboss\kbossht2
+kbossht4
+kbossht5
+kbossht6
+$OPENCOMP       monsters\kboss\kbossht3
+kbossht7
+kbossht8
+$OPENCOMP       monsters\kboss\kbossdy1
+kbossdy1
+kbossdy2
+kbossdy3
+$OPENCOMP       monsters\kboss\kbossdy2
+kbossdy4
+kbossdy5
+$OPENCOMP       monsters\kboss\kbossdy3
+kbossdy6
+kbossdy7
+kbossdy8
+
+;-temple priest-------------------------------------
+$OPENCOMP       monsters\pst\pstlt1
+pstlt1          pst
+pstlt2
+pstlt3
+$OPENCOMP       monsters\pst\pstlt2
+pstlt4
+pstlt5
+pstlt6
+$OPENCOMP       monsters\pst\pstlt3
+pstlt7
+pstlt8
+$OPENCOMP       monsters\pst\pstls1
+pstls1
+pstls2
+pstls3
+$OPENCOMP       monsters\pst\pstls2
+pstls4
+pstls5
+pstls6
+$OPENCOMP       monsters\pst\pstls3
+pstls7
+pstls8
+$OPENCOMP       monsters\pst\pstrs1
+pstrs1
+pstrs2
+pstrs3
+$OPENCOMP       monsters\pst\pstrs2
+pstrs4
+pstrs5
+pstrs6
+$OPENCOMP       monsters\pst\pstrs3
+pstrs7
+pstrs8
+$OPENCOMP       monsters\pst\pstrt1
+pstrt1
+pstrt2
+pstrt3
+$OPENCOMP       monsters\pst\pstrt2
+pstrt4
+pstrt5
+pstrt6
+$OPENCOMP       monsters\pst\pstrt3
+pstrt7
+pstrt8
+$OPENCOMP       monsters\pst\pstfi1
+pstfi1
+pstfi2
+$OPENCOMP       monsters\pst\pstfi2
+pstfi3
+pstfi4
+$OPENCOMP       monsters\pst\pstfi3
+pstfi5
+pstfi6
+$OPENCOMP       monsters\pst\pstfi4
+pstfi7
+pstfi8
+$OPENCOMP       monsters\pst\pstht1
+pstht1
+pstht2
+pstht3
+$OPENCOMP       monsters\pst\pstht2
+pstht4
+pstht5
+pstht6          
+$OPENCOMP       monsters\pst\pstht3
+pstht7
+pstht8
+$OPENCOMP       monsters\pst\pstdy1
+pstdy1
+pstdy2
+pstdy3
+$OPENCOMP       monsters\pst\pstdy2
+pstdy4
+pstdy5
+$OPENCOMP       monsters\pst\pstdy3
+pstdy6
+pstdy7
+pstdy8
+
+;-Temple Priestess----------------------------------
+$OPENCOMP       monsters\pss\psslt1
+psslt1          pss
+psslt2
+psslt3
+$OPENCOMP       monsters\pss\psslt2
+psslt4
+psslt5
+psslt6
+$OPENCOMP       monsters\pss\psslt3
+psslt7
+psslt8
+$OPENCOMP       monsters\pss\pssls1
+pssls1
+pssls2
+pssls3
+$OPENCOMP       monsters\pss\pssls2
+pssls4
+pssls5
+pssls6
+$OPENCOMP       monsters\pss\pssls3
+pssls7
+pssls8
+$OPENCOMP       monsters\pss\pssrs1
+pssrs1
+pssrs2
+pssrs3
+$OPENCOMP       monsters\pss\pssrs2
+pssrs4
+pssrs5
+pssrs6
+$OPENCOMP       monsters\pss\pssrs3
+pssrs7
+pssrs8
+$OPENCOMP       monsters\pss\pssrt1
+pssrt1
+pssrt2
+pssrt3
+$OPENCOMP       monsters\pss\pssrt2
+pssrt4
+pssrt5
+pssrt6
+$OPENCOMP       monsters\pss\pssrt3
+pssrt7
+pssrt8
+$OPENCOMP       monsters\pss\pssfi1
+pssfi1
+pssfi2
+pssfi3
+$OPENCOMP       monsters\pss\pssfi2
+pssfi4
+pssfi5
+pssfi6
+$OPENCOMP       monsters\pss\pssfi3
+pssfi7
+pssfi8
+$OPENCOMP       monsters\pss\pssht1
+pssht1
+pssht2
+pssht3
+$OPENCOMP       monsters\pss\pssht2
+pssht4
+pssht5
+pssht6
+$OPENCOMP       monsters\pss\pssht3
+pssht7
+pssht8
+$OPENCOMP       monsters\pss\pssdy1
+pssdy1
+pssdy2
+pssdy3
+$OPENCOMP       monsters\pss\pssdy2
+pssdy4
+pssdy5
+$OPENCOMP       monsters\pss\pssdy3
+pssdy6
+pssdy7
+pssdy8
+
+;-Temple Wizards------------------------------------
+$OPENCOMP       monsters\wiz\wizlt1
+wizlt1          wiz
+wizlt2
+wizlt3
+$OPENCOMP       monsters\wiz\wizlt2
+wizlt4 
+wizlt5
+wizlt6
+$OPENCOMP       monsters\wiz\wizlt3
+wizlt7
+wizlt8
+$OPENCOMP       monsters\wiz\wizls1
+wizls1
+wizls2
+wizls3
+$OPENCOMP       monsters\wiz\wizls2
+wizls4
+wizls5
+wizls6
+$OPENCOMP       monsters\wiz\wizls3
+wizls7
+wizls8
+$OPENCOMP       monsters\wiz\wizrs1
+wizrs1
+wizrs2
+wizrs3
+$OPENCOMP       monsters\wiz\wizrs2
+wizrs4
+wizrs5
+wizrs6
+$OPENCOMP       monsters\wiz\wizrs3
+wizrs7
+wizrs8
+$OPENCOMP       monsters\wiz\wizrt1
+wizrt1
+wizrt2
+wizrt3
+$OPENCOMP       monsters\wiz\wizrt2
+wizrt4
+wizrt5
+wizrt6
+$OPENCOMP       monsters\wiz\wizrt3
+wizrt7
+wizrt8
+$OPENCOMP       monsters\wiz\wizfi1
+wizfi1
+wizfi2
+wizfi3
+$OPENCOMP       monsters\wiz\wizfi2
+wizfi4
+wizfi5
+wizfi6
+$OPENCOMP       monsters\wiz\wizfi3
+wizfi7
+wizfi8
+$OPENCOMP       monsters\wiz\wizht1
+wizht1
+wizht2
+wizht3
+$OPENCOMP       monsters\wiz\wizht2
+wizht4
+wizht5
+wizht6
+$OPENCOMP       monsters\wiz\wizht3
+wizht7
+wizht8
+$OPENCOMP       monsters\wiz\wizdy1
+wizdy1
+wizdy2
+wizdy3
+$OPENCOMP       monsters\wiz\wizdy2
+wizdy4
+wizdy5
+$OPENCOMP       monsters\wiz\wizdy3
+wizdy6
+wizdy7
+wizdy8
+
+;-Veekan Warriors-----------------------------------
+$OPENCOMP       monsters\veek\veeklt1
+veeklt1         veek
+veeklt2
+veeklt3
+$OPENCOMP       monsters\veek\veeklt2
+veeklt4
+veeklt5
+veeklt6
+$OPENCOMP       monsters\veek\veeklt3
+veeklt7
+veeklt8
+$OPENCOMP       monsters\veek\veekls1
+veekls1
+veekls2
+veekls3
+$OPENCOMP       monsters\veek\veekls2
+veekls4
+veekls5
+veekls6
+$OPENCOMP       monsters\veek\veekls3
+veekls7
+veekls8
+$OPENCOMP       monsters\veek\veekrs1
+veekrs1
+veekrs2
+veekrs3
+$OPENCOMP       monsters\veek\veekrs2
+veekrs4
+veekrs5
+veekrs6
+$OPENCOMP       monsters\veek\veekrs3
+veekrs7
+veekrs8
+$OPENCOMP       monsters\veek\veekrt1
+veekrt1
+veekrt2
+veekrt3
+$OPENCOMP       monsters\veek\veekrt2
+veekrt4
+veekrt5
+veekrt6
+$OPENCOMP       monsters\veek\veekrt3
+veekrt7
+veekrt8
+$OPENCOMP       monsters\veek\veekfi1
+veekfi1
+veekfi2
+veekfi3
+$OPENCOMP       monsters\veek\veekfi2
+veekfi4
+veekfi5
+veekfi6
+$OPENCOMP       monsters\veek\veekfi3
+veekfi7
+veekfi8
+$OPENCOMP       monsters\veek\veekht1
+veekht1
+veekht2
+veekht3
+$OPENCOMP       monsters\veek\veekht2
+veekht4
+veekht5
+veekht6
+$OPENCOMP       monsters\veek\veekht3
+veekht7
+veekht8
+$OPENCOMP       monsters\veek\veekdy1
+veekdy1
+veekdy2
+veekdy3
+$OPENCOMP       monsters\veek\veekdy2
+veekdy4
+veekdy5
+$OPENCOMP       monsters\veek\veekdy3
+veekdy6
+veekdy7
+veekdy8
+
+;--Temple Boss_____________________________________
+$OPENCOMP       monsters\tboss\tbosslt1
+tbosslt1        tboss
+tbosslt2
+$OPENCOMP       monsters\tboss\tbosslt2
+tbosslt3
+tbosslt4
+$OPENCOMP       monsters\tboss\tbosslt3
+tbosslt5
+tbosslt6
+$OPENCOMP       monsters\tboss\tbosslt4
+tbosslt7 
+tbosslt8
+$OPENCOMP       monsters\tboss\tbossls1
+tbossls1
+tbossls2
+$OPENCOMP       monsters\tboss\tbossls2
+tbossls3
+tbossls4
+$OPENCOMP       monsters\tboss\tbossls3
+tbossls5
+tbossls6
+$OPENCOMP       monsters\tboss\tbossls4
+tbossls7
+tbossls8
+$OPENCOMP       monsters\tboss\tbossrs1
+tbossrs1
+tbossrs2
+$OPENCOMP       monsters\tboss\tbossrs2
+tbossrs3
+tbossrs4
+$OPENCOMP       monsters\tboss\tbossrs3
+tbossrs5
+tbossrs6
+$OPENCOMP       monsters\tboss\tbossrs4
+tbossrs7
+tbossrs8
+$OPENCOMP       monsters\tboss\tbossrt1
+tbossrt1
+tbossrt2
+$OPENCOMP       monsters\tboss\tbossrt2
+tbossrt3
+tbossrt4
+$OPENCOMP       monsters\tboss\tbossrt3
+tbossrt5
+tbossrt6
+$OPENCOMP       monsters\tboss\tbossrt4
+tbossrt7
+tbossrt8
+$OPENCOMP       monsters\tboss\tbossfi1
+tbossfi1
+tbossfi2
+$OPENCOMP       monsters\tboss\tbossfi2
+tbossfi3
+tbossfi4
+$OPENCOMP       monsters\tboss\tbossfi3
+tbossfi5
+tbossfi6        
+$OPENCOMP       monsters\tboss\tbossfi4
+tbossfi7
+tbossfi8
+$OPENCOMP       monsters\tboss\tbossht1
+tbossht1
+tbossht2
+$OPENCOMP       monsters\tboss\tbossht2
+tbossht3
+tbossht4
+$OPENCOMP       monsters\tboss\tbossht3
+tbossht5
+tbossht6
+$OPENCOMP       monsters\tboss\tbossht4
+tbossht7
+tbossht8
+$OPENCOMP       monsters\tboss\tbossdy1
+tbossdy1
+tbossdy2
+$OPENCOMP       monsters\tboss\tbossdy2
+tbossdy3
+$OPENCOMP       monsters\tboss\tbossdy3
+tbossdy4
+$OPENCOMP       monsters\tboss\tbossdy4
+tbossdy5
+$OPENCOMP       monsters\tboss\tbossdy5
+tbossdy6
+$OPENCOMP       monsters\tboss\tbossdy6
+tbossdy7
+tbossdy8
+
+
+;- CHARACTERS---------------------------------------
+;- dominatrix --------------------------------------
+$OPENCOMP       char\trix\domtx2-1
+dmntrx1         dominatrix
+dmntrx2
+$OPENCOMP       char\trix\domtx2-2
+dmntrx3
+dmntrx4
+$OPENCOMP       char\trix\domtx2-3
+dmntrx5
+dmntrx6
+$OPENCOMP       char\trix\domtx2-4
+dmntrx7
+dmntrx8
+$OPENCOMP       char\trix\domtx1-1
+dmntrx9
+dmntrx10
+$OPENCOMP       char\trix\domtx1-2
+dmntrx11
+dmntrx12
+$OPENCOMP       char\trix\domtx1-3
+dmntrx13
+dmntrx14
+$OPENCOMP       char\trix\domtx1-4
+dmntrx15
+dmntrx16
+$OPENCOMP       char\trix\domtx3-1
+dmntrx17
+dmntrx18
+$OPENCOMP       char\trix\domtx3-2
+dmntrx19
+dmntrx20
+dmntrx21
+$OPENCOMP       char\trix\domtx3-3
+dmntrx22
+dmntrx23
+dmntrx24
+$OPENCOMP       char\trix\domtx4-1
+dmntrxfi1
+dmntrxfi2
+$OPENCOMP       char\trix\domtx4-2
+dmntrxfi3
+dmntrxfi4
+dmntrxfi5
+$OPENCOMP       char\trix\domtx4-3
+dmntrxfi6
+dmntrxfi7
+dmntrxfi8
+$OPENCOMP       char\trix\domtx5-1
+dmntrxht1
+dmntrxht2
+$OPENCOMP       char\trix\domtx5-2
+dmntrxht3
+dmntrxht4
+$OPENCOMP       char\trix\domtx5-3
+dmntrxht5
+dmntrxht6
+$OPENCOMP       char\trix\domtx5-4
+dmntrxht7
+dmntrxht8
+$OPENCOMP       char\trix\domtx6-1
+dmntrxdy1
+dmntrxdy2
+dmntrxdy3
+$OPENCOMP       char\trix\domtx6-2
+dmntrxdy4
+dmntrxdy5
+dmntrxdy6
+dmntrxdy7
+dmntrxdy7
+
+;- mooman -----------------------------------------
+$OPENCOMP       char\mooman\moomn2-1
+mooman1         mooman
+$OPENCOMP       char\mooman\moomn2-2
+mooman2
+mooman3
+$OPENCOMP       char\mooman\moomn2-3
+mooman4
+mooman5
+mooman6
+$OPENCOMP       char\mooman\moomn2-4
+mooman7
+mooman8
+$OPENCOMP       char\mooman\moomn1-1
+mooman9
+mooman10
+$OPENCOMP       char\mooman\moomn1-2
+mooman11
+mooman12
+mooman13
+$OPENCOMP       char\mooman\moomn1-3
+mooman14
+mooman15
+mooman16
+$OPENCOMP       char\mooman\moomn3-1
+mooman17
+mooman18
+$OPENCOMP       char\mooman\moomn3-2
+mooman19
+mooman20
+$OPENCOMP       char\mooman\moomn3-3
+mooman21
+mooman22
+$OPENCOMP       char\mooman\moomn3-4
+mooman23
+mooman24
+$OPENCOMP       char\mooman\moomn4-1
+moomanfi1
+moomanfi2
+moomanfi3
+$OPENCOMP       char\mooman\moomn4-2
+moomanfi4
+moomanfi5
+moomanfi6
+$OPENCOMP       char\mooman\moomn4-3
+moomanfi7
+moomanfi8
+$OPENCOMP       char\mooman\moomn5-1
+moomanht1
+moomanht2
+$OPENCOMP       char\mooman\moomn5-2
+moomanht3
+moomanht4
+$OPENCOMP       char\mooman\moomn5-3
+moomanht5
+moomanht6
+$OPENCOMP       char\mooman\moomn5-4
+moomanht7
+moomanht8
+$OPENCOMP       char\mooman\moomn6-1
+moomandy1
+moomandy2
+$OPENCOMP       char\mooman\moomn6-2
+moomandy3
+moomandy4
+moomandy5
+$OPENCOMP       char\mooman\moomn6-3
+moomandy6
+moomandy7
+moomandy8
+
+;- cyborg ------------------------------------------
+$OPENCOMP       char\cyborg\cybrg2-1
+cyborg1         cyborg
+cyborg2
+$OPENCOMP       char\cyborg\cybrg2-2
+cyborg3
+cyborg4
+cyborg5
+$OPENCOMP       char\cyborg\cybrg2-3
+cyborg6
+cyborg7
+cyborg8
+$OPENCOMP       char\cyborg\cybrg1-1
+cyborg9
+cyborg10
+$OPENCOMP       char\cyborg\cybrg1-2
+cyborg11
+cyborg12
+cyborg13
+$OPENCOMP       char\cyborg\cybrg1-3
+cyborg14
+cyborg15
+cyborg16
+$OPENCOMP       char\cyborg\cybrg3-1
+cyborg17
+cyborg18
+$OPENCOMP       char\cyborg\cybrg3-2
+cyborg19
+cyborg20
+cyborg21
+$OPENCOMP       char\cyborg\cybrg3-3
+cyborg22
+cyborg23
+cyborg24
+$OPENCOMP       char\cyborg\cybrg4-1
+cyborgfi1
+cyborgfi2
+$OPENCOMP       char\cyborg\cybrg4-2
+cyborgfi3
+cyborgfi4
+cyborgfi5
+$OPENCOMP       char\cyborg\cybrg4-3
+cyborgfi6
+cyborgfi7
+cyborgfi8
+$OPENCOMP       char\cyborg\cybrg5-1
+cyborght1
+cyborght2
+$OPENCOMP       char\cyborg\cybrg5-2
+cyborght3
+cyborght4
+cyborght5
+$OPENCOMP       char\cyborg\cybrg5-3
+cyborght6
+cyborght7
+cyborght8
+$OPENCOMP       char\cyborg\cybrg6-1
+cyborgdy1
+cyborgdy1
+cyborgdy1
+cyborgdy1
+cyborgdy1
+cyborgdy1
+cyborgdy1
+cyborgdy1
+
+;- Lizardman -----------------------------------------
+$OPENCOMP       char\lizard\lizrd2-1
+lizard1         lizardman
+lizard2
+$OPENCOMP       char\lizard\lizrd2-2
+lizard3
+lizard4
+$OPENCOMP       char\lizard\lizrd2-3
+lizard5
+lizard6
+$OPENCOMP       char\lizard\lizrd2-4
+lizard7
+lizard8
+$OPENCOMP       char\lizard\lizrd1-1
+lizard9
+lizard10
+$OPENCOMP       char\lizard\lizrd1-2
+lizard11
+lizard12
+$OPENCOMP       char\lizard\lizrd1-3
+lizard13
+lizard14
+$OPENCOMP       char\lizard\lizrd1-4
+lizard15
+lizard16
+$OPENCOMP       char\lizard\lizrd3-1
+lizard17
+lizard18
+$OPENCOMP       char\lizard\lizrd3-2
+lizard19
+lizard20
+$OPENCOMP       char\lizard\lizrd3-3
+lizard21
+lizard22
+$OPENCOMP       char\lizard\lizrd3-4
+lizard23
+lizard24
+$OPENCOMP       char\lizard\lizrd4-1
+lizardfi1
+$OPENCOMP       char\lizard\lizrd4-2
+lizardfi2
+lizardfi3
+$OPENCOMP       char\lizard\lizrd4-3
+lizardfi4
+lizardfi5
+lizardfi6
+$OPENCOMP       char\lizard\lizrd4-4
+lizardfi7
+lizardfi8
+$OPENCOMP       char\lizard\lizrd5-1
+lizardht1
+lizardht2
+$OPENCOMP       char\lizard\lizrd5-2
+lizardht3
+lizardht4
+lizardht5
+$OPENCOMP       char\lizard\lizrd5-3
+lizardht6
+lizardht7
+lizardht8
+$OPENCOMP       char\lizard\lizrd6-1
+lizarddy1
+lizarddy2
+lizarddy3
+$OPENCOMP       char\lizard\lizrd6-2
+lizarddy4
+lizarddy5
+lizarddy6
+lizarddy6
+lizarddy6
+
+;- Specimen7 --------------------------------------
+$OPENCOMP       char\spcmn7\spcmn1-1
+spcmn1          specimen7
+spcmn2
+spcmn3
+spcmn4
+spcmn5
+$OPENCOMP       char\spcmn7\spcmn1-2
+spcmn6
+spcmn7
+spcmn8
+$OPENCOMP       char\spcmn7\spcmn2-1
+spcmn9
+spcmn10
+spcmn11
+spcmn12
+spcmn13
+$OPENCOMP       char\spcmn7\spcmn2-2
+spcmn14
+spcmn15
+spcmn16
+$OPENCOMP       char\spcmn7\spcmn3-1
+spcmn17
+spcmn18
+spcmn19
+spcmn20
+spcmn21
+$OPENCOMP       char\spcmn7\spcmn3-2
+spcmn22
+spcmn23
+spcmn24
+$OPENCOMP       char\spcmn7\spcmn5-1
+spcmnht-1
+spcmnht-2
+spcmnht-3
+spcmnht-4
+spcmnht-5
+$OPENCOMP       char\spcmn7\spcmn5-2
+spcmnht-6
+spcmnht-7
+spcmnht-8
+$OPENCOMP       char\spcmn7\spcmn4-1
+spcmnfi-1
+spcmnfi-2
+spcmnfi-3
+spcmnfi-4
+spcmnfi-5
+$OPENCOMP       char\spcmn7\spcmn4-2
+spcmnfi-6
+spcmnfi-7
+spcmnfi-8
+$OPENCOMP       char\spcmn7\spcmn7-1
+specdy1
+specdy2
+specdy3
+specdy4
+$OPENCOMP       char\spcmn7\spcmn7-2
+specdy5
+specdy6
+specdy7
+specdy8
+
+$OPENCOMP       sprites\obj01a
+orb             miscobj
+camera
+globe
+barrel1
+barrel2
+plant
+tree
+wchand
+cndlstnd
+lantern
+lanternb
+hcandle
+hcandleb
+bucket
+wchair
+table1
+statue1
+hangpost
+statue2
+$OPENCOMP       sprites\obj03
+hangman
+$OPENCOMP       sprites\obj01a
+lthrplnt
+$OPENCOMP       sprites\obj04
+yarkstatue
+$OPENCOMP       sprites\obj02
+wchandb
+statue3
+$OPENCOMP       sprites\obj03
+bigtree
+$OPENCOMP       sprites\thingy
+bigmachine1
+smallmachine1
+controlport
+dangercone
+lightmace
+speakers
+ltroundsmall
+ltroundbig
+pointything
+
+LABEL           ENDDEMAND
+
+;* Non-Demand Load Sprites ************************
+
+LABEL           startsprites
+
+;* bullets and wallpufs ***************************
+
+$OPENCOMP       puffs\miss01
+missile1         missile
+missile2
+missile3
+missile4
+missile5
+missile6
+missile7
+missile8
+
+$OPENCOMP       puffs\probe1
+probebul01      probebullet
+probebul02
+probebul03
+
+$OPENCOMP       puffs\fireball
+; spread gun bullets
+spread_b1       spreadshot
+spread_b2
+spread_b3
+spread_b4
+spread_b5
+spread_b6
+spread_b7
+spread_b8
+; flamethrower fireballs
+flamer_b1       fireball
+flamer_b2
+flamer_b3
+flamer_b4
+flamer_b5
+flamer_b6
+flamer_b7
+flamer_b8
+; specimen 7 bullets
+s7bull_1        spec7shot
+s7bull_2
+s7bull_3
+
+$OPENCOMP       puffs\fireboom
+purple_1        bigredball
+
+; wall puff temporary
+brownpuff_1     wallpuff
+brownpuff_2
+brownpuff_3
+brownpuff_4
+brownpuff_5
+
+$OPENCOMP       puffs\bullets1
+yellowball2     prongshot
+blueslant       squarshot
+arrowdown       crossshot
+arrowleft
+arrowup
+arrowright
+
+$OPENCOMP       puffs\plasma
+plasmaball      plasmaball
+
+; spread gun wall puff
+$OPENCOMP       puffs\plaspuff
+plaspuff1       plasmawallpuff
+plaspuff2
+plaspuff3
+plaspuff4
+; specimen 7 bullet puff
+greenpuff1      greenring
+greenpuff2
+greenpuff3
+greenpuff4
+
+;$OPENCOMP       puffs\boom
+;fireball_0      bigfireball
+;fireball_1
+;fireball_2
+;fireball_3
+
+; proximity mine fireballs 
+$OPENCOMP       puffs\fballs
+proxmine2       
+proxmine1
+proxmine2
+proxmine3
+
+; timed mine fireballs
+;$OPENCOMP       puffs\fballs2
+;timemine2       firewall
+;timemine1
+;timemine2
+;timemine3
+
+$OPENCOMP       puffs\bullets1
+pulsebullet     pulsebullet
+
+;$OPENCOMP       puffs\explode3
+;explode1        explode
+;explode2
+;explode3
+;explode4
+
+;$OPENCOMP       puffs\explode3
+;explode1        
+;explode2
+;explode3
+;explode4
+$OPENCOMP       puffs\flamers
+flameball1      explode
+flameball2
+flameball3
+flameball4
+$OPENCOMP       puffs\flamers2
+flameball5      explode2
+flameball6
+flameball7
+flameball8
+flameball8      firewall
+flameball5
+flameball6
+flameball7
+
+
+$OPENCOMP       puffs\bullets1
+ankh1           priestshot1
+ankh2
+ankh3
+redshot         pinkball
+redshot     
+redshot
+greenshot       greenball
+greenshot
+greenshot
+blueball1       bluetwirl
+blueball2
+blueball3
+;bluestar1       
+;bluestar1
+;bluestar1
+grnarrowtd      greenarrow
+grnarrowlt
+grnarrowaw
+grnarrowrt
+
+$OPENCOMP       sprites\obj04
+grenadeshot3    grenadeshot
+grenadeshot2
+grenadeshot1
+grenadeshot4
+
+$OPENCOMP       puffs\puffs8
+blood1      blood
+blood2
+;blood3
+hires1
+hires2
+hires3
+hires4
+hires5
+hires6
+hires7
+hires8
+;blood1
+;blood2
+;blood3
+;blood1
+;blood2
+;blood3
+;blood1
+greenpart1      greedblood
+greenpart2
+greenpart3
+greenpart4
+greenpart5
+greenpart6
+greenpart7
+greenpart8
+greenpart9
+greenpart10
+metalpart0      metalparts
+metalpart1
+metalpart2
+metalpart3
+
+;- weapons to pick up -------------------------------
+$OPENCOMP       guns\gunpics
+ ; note: any weapon can be found, including player's weapons
+ ; don't use labels, image size must be > 0
+vulcanpic       weapons
+vulcanpic
+vulcanpic
+flamerpic
+spreadpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+vulcanpic
+redgunpic
+bluegunpic
+gungrnpic
+
+;* warp animation ***********************************
+$OPENCOMP       sprites\warp01
+warp_0          warp
+warp_1
+warp_2
+warp_3
+warp_4
+warp_5
+warp_6
+warp_7
+
+;* generator and generated sprites ****************
+$OPENCOMP       sprites\items1
+autodoc         autodoc
+ammobox         ammobox
+toolchest       toolchest
+
+$OPENCOMP       sprites\ammo01
+blank0          generator
+blank1
+blank2
+blank3
+$OPENCOMP       sprites\health01
+medgen1         medtube1
+medgen2
+medgen3
+medgen4
+medgen5         medtube2
+medgen6
+medgen7
+medgen8
+medgen9         medtube3
+medgen10
+medgen11
+medgen12
+medgen13        medtube4
+medgen14
+medgen15
+medgen16
+$OPENCOMP       sprites\ammo01
+ammo1           energyammo
+ammo2
+ammo3
+ammo4
+ammo5           bulletammo
+ammo6
+ammo7
+ammo8
+ammo9           plasmaammo
+ammo10
+ammo11
+ammo12
+$OPENCOMP       sprites\shields
+shldgen1        shield1
+shldgen2
+shldgen3
+shldgen4
+shldgen5        shield2
+shldgen6
+shldgen7
+shldgen8
+shldgen9        shield3
+shldgen10
+shldgen11
+shldgen12
+shldgen13       shield4
+shldgen14
+shldgen15
+shldgen16
+$OPENCOMP       sprites\genitem1
+gengrenade1     gengrenade
+gengrenade2
+gengrenade3
+gengrenade4
+genrevpill1     genrevpill
+genrevpill2
+genrevpill3
+genrevpill4
+genpmine1       genpmine
+genpmine2
+genpmine3
+genpmine4
+gentmine1       gentmine
+gentmine2
+gentmine3
+gentmine4
+$OPENCOMP       sprites\genitem2
+gendecoy1       gendecoy
+gendecoy2
+gendecoy3
+gendecoy4
+genwall1        genwall
+genwall2
+genwall3
+genwall4
+genclone1       genclone
+genclone2
+genclone3
+genclone4
+genholo1        genholo
+genholo2
+genholo3
+genholo4
+$OPENCOMP       sprites\generat4
+geninv_1        geninv
+geninv_2
+geninv_3
+geninv_4
+genjam_1        genjam
+genjam_2
+genjam_3
+genjam_4
+gensoul_1       gensoul
+gensoul_2
+gensoul_3
+gensoul_4
+
+;* inventory items ********************************
+$OPENCOMP       sprites\invent1
+inmedtube       medtube
+inshield        shield
+ingrenade       grenade
+inrevpill       reversopill
+inproxmine      proxmine
+intimemine      timemine
+indecoy         decoy
+inwall          instawall
+inclone         clone
+inholo          holo
+ininvis         invis
+injammer        jammer
+instealer       stealer
+
+$OPENCOMP       sprites\instawll
+bluwall_1       instaanim
+bluwall_2
+bluwall_3
+bluwall_4
+
+$OPENCOMP       sprites\warp
+warp_0          exitwarp
+warp_1 
+warp_2 
+warp_3 
+warp_4 
+warp_5 
+warp_6 
+warp_7 
+
+$OPENCOMP      sprites\stditem
+
+;* primary items ***********************************
+primary_0      primary
+primary_1
+primary_2
+primary_3
+primary_4
+primary_5
+primary_6      ;temple-towers
+primary_7
+primary_8
+primary_9
+$OPENCOMP      sprites\thingy2
+pthing5
+pthing11
+pthing13
+pthing15
+pthing23
+pthing19
+pthing3         ;16 spires
+pthing12        ;17
+pthing17        ;18
+$OPENCOMP      sprites\stditem
+primary_10      ;19 prison-secure
+$OPENCOMP       sprites\thingy2
+pthing26        ;20 sum circle
+pthing27        ;21 power
+;* secondary items *********************************
+$OPENCOMP       sprites\stditem
+secondary_0    secondary
+secondary_1
+secondary_2
+secondary_3
+secondary_4
+secondary_5
+secondary_6    
+secondary_7
+secondary_8
+secondary_9
+$OPENCOMP      sprites\thingy2
+pthing2
+pthing6
+pthing7
+pthing8
+pthing10
+pthing24
+pthing25  ;16
+pthing21  ;17 prison-power
+pthing25  ;18 spires
+pthing16  ;19 cats
+$OPENCOMP       sprites\stditem
+secondary_10 ;20 slugs
+secondary_11 ;21 slugs
+secondary_12 ;22 inner
+secondary_13 ;23 inner
+secondary_14 ;24 towers
+secondary_15 ;25 sum
+secondary_16 ;26 sum
+secondary_17 ;27 sum
+secondary_18 ;28 sum
+secondary_19 ;29
+secondary_20 ;30
+secondary_21 ;31
+$OPENCOMP       sprites\thingy2
+pthing18     ;32 power
+$OPENCOMP       sprites\stditem
+secondary_22; 33 secure
+secondary_23; 34 secure
+secondary_24; 35 command
+secondary_25; 36 command
+secondary_26; 37 power
+secondary_27; 38 vault - gold bars
+secondary_28; 39 sanctum - orbs
+secondary_29; 40 towers - scroll
+;* random items ************************************
+$OPENCOMP      sprites\randitem
+randitem_0     randitem
+randitem_1
+randitem_2
+randitem_3
+randitem_4
+randitem_5
+randitem_6
+randitem_7
+randitem_8
+randitem_9
+randitem_10
+randitem_11
+randitem_12
+randitem_13
+randitem_14
+randitem_15
+randitem_16
+randitem_17
+randitem_18
+randitem_19
+randitem_20
+randitem_21
+randitem_22
+randitem_23
+randitem_24
+randitem_25
+randitem_26
+randitem_27
+randitem_28
+randitem_29
+randitem_30
+randitem_31
+randitem_32
+randitem_33
+randitem_34
+randitem_35
+randitem_36
+randitem_37
+randitem_38
+randitem_39
+randitem_40
+randitem_41
+randitem_42
+randitem_43
+randitem_44
+randitem_45
+randitem_46
+randitem_47
+
+LABEL          endsprites
+
+
+;* floors and ceilings ****************************
+LABEL           startflats
+$OPENCOMP       flats\flats1
+f1_1.dat
+f1_2.dat
+f1_3.dat
+f1_4.dat
+f1_5.dat
+f1_6.dat
+f1_7.dat
+f1_8.dat
+$OPENCOMP       flats\flats2
+f2_1.dat
+f2_2.dat
+f2_3.dat
+f2_4.dat
+f2_5.dat
+f2_6.dat
+f2_7.dat
+f2_8.dat
+$OPENCOMP       flats\flats3
+f3_1.dat
+f3_2.dat
+f3_3.dat
+f3_4.dat
+f3_5.dat
+f3_6.dat
+f3_7.dat
+f3_8.dat
+$OPENCOMP       flats\flats4
+f4_1.dat
+f4_2.dat
+f4_3.dat
+f4_4.dat
+f4_5.dat
+f4_6.dat
+f4_7.dat
+f4_8.dat
+$OPENCOMP       flats\flats5
+f5_1.dat
+f5_2.dat
+f5_3.dat
+f5_4.dat
+f5_5.dat
+f5_6.dat
+f5_7.dat
+f5_8.dat
+$OPENCOMP       flats\flats6
+f6_1.dat
+f6_2.dat
+f6_3.dat
+f6_4.dat
+f6_5.dat
+f6_6.dat
+f6_7.dat
+f6_8.dat
+$OPENCOMP       flats\flats7
+f7_1.dat
+f7_2.dat
+f7_3.dat
+f7_4.dat
+f7_5.dat
+f7_6.dat
+f7_7.dat
+f7_8.dat
+$OPENCOMP       flats\flats8
+f8_1.dat
+f8_2.dat
+f8_3.dat
+f8_4.dat
+f8_5.dat
+f8_6.dat
+f8_7.dat
+f8_8.dat
+$OPENCOMP       flats\flats9
+f9_1.dat
+f9_2.dat
+f9_3.dat
+f9_4.dat
+f9_5.dat
+f9_6.dat
+f9_7.dat
+f9_8.dat
+$OPENCOMP       flats\flats10
+f10_1.dat
+f10_2.dat
+f10_3.dat
+f10_4.dat
+f10_5.dat
+f10_6.dat
+f10_7.dat
+f10_8.dat
+$OPENCOMP       flats\flats11
+f11_1.dat
+f11_2.dat
+f11_3.dat
+f11_4.dat
+f11_5.dat
+f11_6.dat
+f11_7.dat
+f11_8.dat
+$OPENCOMP       flats\flats12
+f12_1.dat
+f12_2.dat
+f12_3.dat
+f12_4.dat
+f12_5.dat
+f12_6.dat
+f12_7.dat
+f12_8.dat
+$OPENCOMP       flats\flats13
+f13_1.dat
+f13_2.dat
+f13_3.dat
+f13_4.dat
+f13_5.dat
+f13_6.dat
+f13_7.dat
+f13_8.dat
+$OPENCOMP       flats\flats14
+f14_1.dat
+f14_2.dat
+f14_3.dat
+f14_4.dat
+f14_5.dat
+f14_6.dat
+f14_7.dat
+f14_8.dat
+$OPENCOMP       flats\flats15
+f15_1.dat
+f15_2.dat
+f15_3.dat
+f15_4.dat
+f15_5.dat
+f15_6.dat
+f15_7.dat
+f15_8.dat
+$OPENCOMP       flats\flats16
+f16_1.dat
+f16_2.dat
+f16_3.dat
+f16_4.dat
+f16_5.dat
+f16_6.dat
+f16_7.dat
+f16_8.dat
+$OPENCOMP       flats\flats17
+f17_1.dat
+f17_2.dat
+f17_3.dat
+f17_4.dat
+f17_5.dat
+f17_6.dat
+f17_7.dat
+f17_8.dat
+$OPENCOMP       flats\flats18
+f18_1.dat
+f18_2.dat
+f18_3.dat
+f18_4.dat
+f18_5.dat
+f18_6.dat
+f18_7.dat
+f18_8.dat
+$OPENCOMP       flats\flats19
+f19_1.dat
+f19_2.dat
+f19_3.dat
+f19_4.dat
+f19_5.dat
+f19_6.dat
+f19_7.dat
+f19_8.dat
+$OPENCOMP       flats\flats20
+f20_1.dat
+f20_2.dat
+f20_3.dat
+f20_4.dat
+f20_5.dat
+f20_6.dat
+f20_7.dat
+f20_8.dat
+$OPENCOMP       flats\flats21
+f21_1.dat
+f21_2.dat
+f21_3.dat
+f21_4.dat
+f21_5.dat
+f21_6.dat
+f21_7.dat
+f21_8.dat
+$OPENCOMP       flats\flats22
+f22_1.dat
+f22_2.dat
+f22_3.dat
+f22_4.dat
+f22_5.dat
+f22_6.dat
+f22_7.dat
+f22_8.dat
+$OPENCOMP       flats\flats23
+f23_1.dat
+f23_2.dat
+f23_3.dat
+f23_4.dat
+f23_5.dat
+f23_6.dat
+f23_7.dat
+f23_8.dat
+$OPENCOMP       flats\flats24
+f24_1.dat
+f24_2.dat
+f24_3.dat
+f24_4.dat
+f24_5.dat
+f24_6.dat
+f24_7.dat
+f24_8.dat
+$OPENCOMP       flats\flats25
+f25_1.dat
+f25_2.dat
+f25_3.dat
+f25_4.dat
+f25_5.dat
+f25_6.dat
+f25_7.dat
+f25_8.dat
+$OPENCOMP       flats\flats26
+f26_1.dat
+f26_2.dat
+f26_3.dat
+f26_4.dat
+f26_5.dat
+f26_6.dat
+f26_7.dat
+f26_8.dat
+$OPENCOMP       flats\flats27
+f27_1.dat
+f27_2.dat
+f27_3.dat
+f27_4.dat
+f27_5.dat
+f27_6.dat
+f27_7.dat
+f27_8.dat
+$OPENCOMP       flats\flats28
+f28_1.dat
+f28_2.dat
+f28_3.dat
+f28_4.dat
+f28_5.dat
+f28_6.dat
+f28_7.dat
+f28_8.dat
+$OPENCOMP       flats\flats29
+f29_1.dat
+f29_2.dat
+f29_3.dat
+f29_4.dat
+f29_5.dat
+f29_6.dat
+f29_7.dat
+f29_8.dat
+
+
+LABEL           endflats
+
+;* wall textures ***********************************
+LABEL           startwalls
+$OPENCOMP       kaal_txt\kaal1
+k1_1.dat
+k1_2.dat
+k1_3.dat
+k1_4.dat
+$OPENCOMP       kaal_txt\kaal2
+k2_1.dat
+k2_2.dat
+k2_3.dat
+k2_4.dat
+$OPENCOMP       kaal_txt\kaal3
+k3_1.dat
+k3_2.dat
+k3_3.dat
+k3_4.dat
+$OPENCOMP       kaal_txt\kaal4
+k4_1.dat
+k4_2.dat
+k4_3.dat
+k4_4.dat
+$OPENCOMP       kaal_txt\kaal5
+k5_1.dat
+k5_2.dat
+k5_3.dat
+k5_4.dat
+k5_5.dat
+k5_6.dat
+k5_7.dat
+k5_8.dat
+$OPENCOMP       kaal_txt\kaal6
+k6_1.dat
+k6_2.dat
+k6_3.dat
+k6_4.dat
+k6_5.dat
+k6_6.dat
+k6_7.dat
+k6_8.dat
+$OPENCOMP       kaal_txt\kaal7
+k7_1.dat
+k7_2.dat
+k7_3.dat
+k7_4.dat
+k7_5.dat
+k7_6.dat
+k7_7.dat
+k7_8.dat
+$OPENCOMP       kaal_txt\kaal8
+k8_1.dat
+k8_2.dat
+k8_3.dat
+k8_4.dat
+k8_5.dat
+k8_6.dat
+k8_7.dat
+k8_8.dat
+$OPENCOMP       kaal_txt\kaal9
+k9_1.dat
+k9_2.dat
+k9_3.dat
+k9_4.dat
+k9_5.dat
+k9_6.dat
+k9_7.dat
+k9_8.dat
+$OPENCOMP       kaal_txt\kaal10
+k10_1.dat
+k10_2.dat
+k10_3.dat
+k10_4.dat
+$OPENCOMP       kaal_txt\kaal11
+k11_1.dat
+k11_2.dat
+k11_3.dat
+k11_4.dat
+$OPENCOMP       kaal_txt\kaal12
+k12_1.dat
+k12_2.dat
+k12_3.dat
+k12_4.dat
+$OPENCOMP       kaal_txt\kaal13
+k13_1.dat
+$OPENCOMP       kaal_txt\kaal14
+k14_1.dat
+k14_2.dat
+k14_3.dat
+k14_4.dat
+$OPENCOMP       kaal_txt\kaal15
+k15_1.dat
+k15_2.dat
+k15_3.dat
+k15_4.dat
+$OPENCOMP       pris_txt\pris18
+p18_1.dat
+p18_2.dat
+p18_3.dat
+p18_4.dat
+p18_5.dat
+p18_6.dat
+p18_7.dat
+p18_8.dat
+$OPENCOMP       pris_txt\pris1
+p1_1.dat
+p1_2.dat
+p1_3.dat
+p1_4.dat
+$OPENCOMP       pris_txt\pris2
+p2_1.dat
+p2_2.dat
+p2_3.dat
+p2_4.dat
+$OPENCOMP       pris_txt\pris3
+p3_1.dat
+p3_2.dat
+p3_3.dat
+p3_4.dat
+$OPENCOMP       pris_txt\pris4
+p4_1.dat
+p4_2.dat
+p4_3.dat
+p4_4.dat
+$OPENCOMP       pris_txt\pris5
+p5_1.dat
+p5_2.dat
+p5_3.dat
+p5_4.dat
+$OPENCOMP       pris_txt\pris6
+p6_1.dat
+p6_2.dat
+p6_3.dat
+p6_4.dat
+$OPENCOMP       pris_txt\pris7
+p7_1.dat
+p7_2.dat
+p7_3.dat
+p7_4.dat
+$OPENCOMP       pris_txt\pris8
+p8_1.dat
+p8_2.dat
+p8_3.dat
+p8_4.dat
+$OPENCOMP       pris_txt\pris9
+p9_1.dat
+p9_2.dat
+p9_3.dat
+p9_4.dat
+$OPENCOMP       pris_txt\pris10
+p10_1.dat
+p10_2.dat
+p10_3.dat
+p10_4.dat
+$OPENCOMP       pris_txt\pris11
+p11_1.dat
+p11_2.dat
+p11_3.dat
+p11_4.dat
+$OPENCOMP       pris_txt\pris12
+p12_1.dat
+p12_2.dat
+p12_3.dat
+p12_4.dat
+$OPENCOMP       pris_txt\pris13
+p13_1.dat
+p13_2.dat
+p13_3.dat
+p13_4.dat
+p13_5.dat
+p13_6.dat
+p13_7.dat
+p13_8.dat
+$OPENCOMP       pris_txt\pris14
+p14_1.dat
+p14_2.dat
+p14_3.dat
+p14_4.dat
+p14_5.dat
+p14_6.dat
+p14_7.dat
+p14_8.dat
+$OPENCOMP       pris_txt\pris15
+p15_1.dat
+p15_2.dat
+p15_3.dat
+p15_4.dat
+p15_5.dat
+p15_6.dat
+p15_7.dat
+p15_8.dat
+$OPENCOMP       pris_txt\pris16
+p16_1.dat
+p16_2.dat
+p16_3.dat
+p16_4.dat
+p16_5.dat
+p16_6.dat
+p16_7.dat
+p16_8.dat
+$OPENCOMP       pris_txt\pris17
+p17_1.dat
+p17_2.dat
+p17_3.dat
+p17_4.dat
+p17_5.dat
+p17_6.dat
+$OPENCOMP       temp_txt\temp1
+t1_1.dat
+t1_2.dat
+t1_3.dat
+t1_4.dat
+$OPENCOMP       temp_txt\temp2
+t2_1.dat
+t2_2.dat
+t2_3.dat
+t2_4.dat
+$OPENCOMP       temp_txt\temp3
+t3_1.dat
+t3_2.dat
+t3_3.dat
+t3_4.dat
+$OPENCOMP       temp_txt\temp4
+t4_1.dat
+t4_2.dat
+t4_3.dat
+t4_4.dat
+$OPENCOMP       temp_txt\temp5
+t5_1.dat
+t5_2.dat
+t5_3.dat
+t5_4.dat
+$OPENCOMP       temp_txt\temp6
+t6_1.dat
+t6_2.dat
+t6_3.dat
+t6_4.dat
+$OPENCOMP       temp_txt\temp7
+t7_1.dat
+t7_2.dat
+t7_3.dat
+t7_4.dat
+t7_5.dat
+t7_6.dat
+t7_7.dat
+t7_8.dat
+$OPENCOMP       temp_txt\temp8
+t8_1.dat
+t8_2.dat
+t8_3.dat
+t8_4.dat
+t8_5.dat
+t8_6.dat
+t8_7.dat
+t8_8.dat
+$OPENCOMP       temp_txt\temp9
+t9_1.dat
+t9_2.dat
+t9_3.dat
+t9_4.dat
+t9_5.dat
+t9_6.dat
+t9_7.dat
+t9_8.dat
+$OPENCOMP       temp_txt\temp10
+t10_1.dat
+t10_2.dat
+t10_3.dat
+t10_4.dat
+t10_5.dat
+t10_6.dat
+t10_7.dat
+t10_8.dat
+$OPENCOMP       temp_txt\temp11
+t11_1.dat
+t11_2.dat
+t11_3.dat
+t11_4.dat
+$OPENCOMP       temp_txt\temp12
+t12_1.dat
+t12_2.dat
+t12_3.dat
+t12_4.dat
+t12_5.dat
+t12_6.dat
+t12_7.dat
+t12_8.dat
+$OPENCOMP       temp_txt\temp13
+t13_1.dat
+t13_2.dat
+t13_3.dat
+t13_4.dat
+$OPENCOMP       kaal_txt\kaal16
+k16_1.dat
+k16_2.dat
+k16_3.dat
+k16_4.dat
+$OPENCOMP       kaal_txt\kaal17
+k17_1.dat
+k17_2.dat
+k17_3.dat
+k17_4.dat
+$OPENCOMP       pris_txt\pris19
+p19_1.dat
+p19_2.dat
+p19_3.dat
+p19_4.dat
+
+;* doors ******************************************
+$OPENCOMP       kaal_txt\kaal2
+k2_1.dat        door_1
+k2_2.dat        door_2
+$OPENCOMP       temp_txt\temp3
+t3_3.dat        door_3
+$OPENCOMP       temp_txt\temp4
+t4_4.dat        door_4
+$OPENCOMP       temp_txt\temp5
+t5_1.dat        door_5
+$OPENCOMP       kaal_txt\kaal2
+k2_3.dat        door_6
+k2_4.dat        door_7
+LABEL           endwalls
+
+;* Demo Intro Screens ******************************
+;$OPENCOMP       intro\intro00
+;screen          intro00
+;$CLOSECOMP
+;intro\intro00.pal
+;$OPENCOMP       intro\intro01
+;screen          intro01
+;$CLOSECOMP
+;intro\intro01.pal
+;$OPENCOMP       intro\intro02
+;screen          intro02
+;$CLOSECOMP
+;intro\intro02.pal
+;$OPENCOMP       intro\intro03
+;screen          intro03
+;$CLOSECOMP
+;intro\intro03.pal
+;$OPENCOMP       intro\intro04
+;screen          intro04
+;$CLOSECOMP
+;intro\intro04.pal
+;$OPENCOMP       intro\intro05
+;screen          intro05
+;$CLOSECOMP
+;intro\intro05.pal
+;$OPENCOMP       intro\intro06
+;screen          intro06
+;$CLOSECOMP
+;intro\intro06.pal
+;$OPENCOMP       intro\intro07
+;screen          intro07
+;$CLOSECOMP
+;intro\intro07.pal
+;$OPENCOMP       intro\intro08
+;screen          intro08
+;$CLOSECOMP
+;intro\intro08.pal
+
+
+;* Logo Screens ************************************
+$OPENCOMP       intro\c7logo
+screen          c7logo
+$CLOSECOMP
+intro\c7logo.pal
+$OPENCOMP       intro\softlogo
+screen          softlogo
+$CLOSECOMP
+intro\softlogo.pal
+$OPENCOMP       intro\grdlogo
+screen          grdlogo
+$CLOSECOMP
+intro\grdlogo.pal
+
+;* character portraits *****************************
+$OPENCOMP       intro\char0
+screen          char1
+$CLOSECOMP
+intro\char0.pal
+$OPENCOMP       intro\char1
+char1           char2
+$CLOSECOMP
+intro\char1.pal
+$OPENCOMP       intro\char2
+char2           char3
+$CLOSECOMP
+intro\char2.pal
+$OPENCOMP       intro\char3
+char3           char4
+$CLOSECOMP
+intro\char3.pal
+$OPENCOMP       intro\char4
+char4           char5
+$CLOSECOMP
+intro\char4.pal
+
+;* character profiles for network frag stats*********
+$OPENCOMP       char\profile
+cyborgprof      profiles
+lizardprof
+moomanprof
+spec7prof
+trixprof
+
+;* pause animation **********************************
+$OPENCOMP       menus\pause
+pause_0         pause
+pause_1
+pause_2
+pause_3
+
+;* wait animation ***********************************
+$OPENCOMP       menus\wait
+wait_0          wait
+wait_1
+wait_2
+wait_3
+
+;* quit animation ***********************************
+$OPENCOMP       menus\quit
+quit_0          quit
+quit_1
+quit_2
+
+;* menu animation ***********************************
+$OPENCOMP       menus\ascr0000
+menuanim_0      menuanim
+$OPENCOMP       menus\ascr0001
+menuanim_1
+$OPENCOMP       menus\ascr0002
+menuanim_2
+$OPENCOMP       menus\ascr0003
+menuanim_3
+$OPENCOMP       menus\ascr0004
+menuanim_4
+$OPENCOMP       menus\ascr0005
+menuanim_5
+$OPENCOMP       menus\ascr0006
+menuanim_6
+$OPENCOMP       menus\ascr0007
+menuanim_7
+
+;* menu data *****************************************
+$OPENCOMP       menus\first
+menumain        menumain
+$OPENCOMP       menus\char
+menuchar
+$OPENCOMP       menus\load
+menuload
+$OPENCOMP       menus\save
+menusave
+$OPENCOMP       menus\options
+menuopt
+$OPENCOMP       menus\monster
+menudiff
+$OPENCOMP       menus\volume
+menuvol
+$OPENCOMP       menus\slider
+menuambsli      menuambsli
+menumussli      menumussli
+menusousli      menusousli
+menuscrsli      menuscrsli
+menucamsli      menucamsli
+$OPENCOMP       menus\onoff
+menuvioon       menuvioon
+menuviooff      menuviooff
+menuanion       menuanion
+menuanioff      menuanioff
+$OPENCOMP       menus\stathart
+heart_0         heart
+heart_1
+heart_2
+heart_3
+heart_4
+heart_5
+heart_6
+heart_7
+heart_8
+heart_9
+$OPENCOMP       menus\mcursor
+mcursor         mcursor
+
+;* mission briefing 1 ******************************
+$OPENCOMP       brief\brief1
+screen          brief1
+$CLOSECOMP
+brief\brief1.pal
+$OPENCOMP       brief\brief2
+screen          brief2
+$CLOSECOMP
+brief\brief2.pal
+$OPENCOMP       brief\brief3
+screen          brief3
+$CLOSECOMP
+brief\brief3.pal
+$OPENCOMP       brief\trans
+screen          trans
+$CLOSECOMP
+brief\trans.pal
+$OPENCOMP       brief\trans2
+screen          trans2
+$CLOSECOMP
+brief\trans2.pal
+$OPENCOMP       brief\trans3
+screen          trans3
+$CLOSECOMP
+brief\trans3.pal
+$OPENCOMP       brief\info1
+screen          info1
+$CLOSECOMP    
+brief\info1.pal
+;$OPENCOMP       brief\info2
+;screen          info2
+;$CLOSECOMP    
+;brief\info2.pal
+;$OPENCOMP       brief\info3
+;screen          info3
+;$CLOSECOMP    
+;brief\info3.pal
+
+;$OPENCOMP        fli\credits1
+;screen           credits1
+;$CLOSECOMP 
+;fli\credits1.pal
+;$OPENCOMP        fli\credits2
+;screen           credits2
+;$CLOSECOMP 
+;fli\credits2.pal
+;$OPENCOMP        fli\credits3
+;screen           credits3
+;$CLOSECOMP 
+;fli\credits3.pal
+;$OPENCOMP        fli\redchars
+;screen           redchars
+;$CLOSECOMP 
+;fli\redchars.pal
+
+;* FLIs *************************************
+;greed3.fli       greed3.fli
+FLI\jettison.fli     jettison.fli
+
+;* intro FLIs *************************************
+FLI\CHAR1.FLI    CHAR1.FLI
+FLI\CHAR2.FLI    CHAR2.FLI
+FLI\CHAR3.FLI    CHAR3.FLI
+FLI\CHAR4.FLI    CHAR4.FLI
+FLI\CHAR5.FLI    CHAR5.FLI
+FLI\CITYBURN.FLI CITYBURN.FLI
+FLI\DROPPOD.FLI  DROPPOD.FLI
+FLI\INSHIP01.FLI INSHIP01.FLI
+FLI\INSHIP02.FLI INSHIP02.FLI
+FLI\INSHIP03.FLI INSHIP03.FLI
+FLI\INSHIP04.FLI INSHIP04.FLI
+FLI\LOGOFLY.FLI  LOGOFLY.FLI
+FLI\RUBBLE.FLI   RUBBLE.FLI
+FLI\SHP1.FLI     SHP1.FLI
+FLI\TEXT.FLI     TEXT.FLI
+FLI\THF1.FLI     THF1.FLI
+FLI\THF2.FLI     THF2.FLI
+FLI\THF3.FLI     THF3.FLI
+FLI\THF4.FLI     THF4.FLI
+FLI\WARP01.FLI   WARP01.FLI
+FLI\WARP02.FLI   WARP02.FLI
+FLI\WARP05.FLI   WARP05.FLI
+FLI\ARBITER.FLI  ARBITER.FLI
+FLI\JUMPBAS1.FLI JUMPBAS1.FLI
+FLI\JUMPBAS2.FLI JUMPBAS2.FLI
+FLI\JUMPBAS3.FLI JUMPBAS3.FLI
+FLI\JUMPBAS4.FLI JUMPBAS4.FLI
+FLI\JUMPBAS5.FLI JUMPBAS5.FLI
+FLI\JUMPBAS6.FLI JUMPBAS6.FLI
+FLI\JUMPBAS7.FLI JUMPBAS7.FLI
+FLI\JUMPBAS8.FLI JUMPBAS8.FLI
+FLI\JUMPBAS9.FLI JUMPBAS9.FLI
+FLI\TEMPLE1.FLI  TEMPLE1.FLI
+FLI\TEMPLE2.FLI  TEMPLE2.FLI
+FLI\PRISON1.FLI  PRISON1.FLI
+
+
+

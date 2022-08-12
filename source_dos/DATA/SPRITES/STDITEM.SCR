@@ -1,0 +1,54 @@
+stditem_0 dsprite 1   1  30 30
+stditem_1 dsprite 33  1  30 30
+stditem_2 dsprite 65  1  30 30
+stditem_3 dsprite 97  1  30 30
+stditem_4 dsprite 129 1  30 30
+stditem_5 dsprite 161 1  30 30
+stditem_6 dsprite 193 1  30 30
+stditem_7 dsprite 225 1  30 30
+
+primary_0   dsprite 1   33 30 30
+secondary_0 dsprite 33  33 30 30
+secondary_1 dsprite 65  33 30 30
+primary_1   dsprite 97  33 30 30
+secondary_2 dsprite 129 33 30 30
+secondary_3 dsprite 161 33 30 30
+secondary_4 dsprite 193 33 30 30
+secondary_5 dsprite 225 33 30 30
+primary_2   dsprite 257 33 30 30
+secondary_6 dsprite 289 33 30 30
+
+secondary_7  dsprite 1  65 30 30
+primary_3    dsprite 33 65 30 30
+secondary_8  dsprite 65 65 30 30
+secondary_9  dsprite 97 65 30 30
+primary_4    dsprite 129 65 30 30
+secondary_10 dsprite 161 65 30 30
+secondary_11 dsprite 193 65 30 30
+primary_5    dsprite 225 65 30 30
+secondary_12 dsprite 257 65 30 30
+secondary_13 dsprite 289 65 30 30
+
+primary_6    dsprite 1  97 30 30
+secondary_14  dsprite 33 97 30 30
+primary_7    dsprite 65 97 30 30
+secondary_15 dsprite 97 97 30 30
+secondary_16 dsprite 129 97 30 30
+secondary_17 dsprite 161 97 30 30
+secondary_18 dsprite 193 97 30 30
+secondary_19 dsprite 225 97 30 30
+primary_8    dsprite 257 97 30 30
+secondary_20 dsprite 289 97 30 30
+
+secondary_21 dsprite 1  129 30 30
+primary_9    dsprite 33 129 30 30
+primary_10   dsprite 65 129 30 30
+secondary_22 dsprite 97 129 30 30
+secondary_23 dsprite 129 129 30 30
+secondary_24 dsprite 161 129 30 30
+secondary_25 dsprite 193 129 30 30
+secondary_26 dsprite 225 129 30 30
+secondary_27 dsprite 257 129 30 30
+secondary_28 dsprite 289 129 30 30
+
+secondary_29 dsprite 1 161 30 30

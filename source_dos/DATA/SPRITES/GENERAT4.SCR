@@ -1,0 +1,16 @@
+genhole_1 dsprite    1       1       43      48
+genhole_2 dsprite    45      1       43      48
+genhole_3 dsprite    89      1       43      48
+genhole_4 dsprite    133     1       43      48
+geninv_1 dsprite 1       50      43      48
+geninv_2 dsprite 45      50      43      48
+geninv_3 dsprite 89      50      43      48
+geninv_4 dsprite 133     50      43      48
+genjam_1 dsprite 1      99      43      48
+genjam_2 dsprite 45     99      43      48
+genjam_3 dsprite 89     99      43      48
+genjam_4 dsprite 133    99      43      48
+gensoul_1 dsprite 1      148     43      48
+gensoul_2 dsprite 45     148     43      48
+gensoul_3 dsprite 89     148     43      48
+gensoul_4 dsprite 133    148     43      48      

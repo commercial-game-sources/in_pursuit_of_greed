@@ -1,0 +1,89 @@
+Turbo Assembler	 Version 4.1	    05/16/96 16:56:10	    Page 1
+kbfunc.asm
+
+
+
+      1					 ideal
+      2					 p386
+      3	00000000			 model flat,c
+      4
+      5					 extrn	 scode:byte
+      6
+      7					 global	kisr:near
+      8
+      9
+     10	00000000			 SEGMENT kbdriver USE32
+     11
+     12
+     13
+     14	00000000			 proc kisr near
+     15	00000000  60			  pushad
+     16	00000001  06			  push es
+     17
+     18	00000002  66| B8 0000s		  mov	  ax, DGROUP
+     19	00000006  8E C0			  mov	  es, ax
+     20	00000008  BB 00000000e		  mov	  ebx, offset scode
+     21
+     22	0000000D  E4 60			  in	  al,60h
+     23	0000000F  3C 7F			  cmp	  al,7fh
+     24	00000011  77 05			  ja	  kb_release
+     25	00000013  26: 88 03		  mov	  [es:ebx], al
+     26	00000016  EB 04			  jmp	  xit_kisr
+     27	00000018			 kb_release:
+     28	00000018  26: C6 03 00		  mov	  [byte	es:ebx], 0
+     29
+     30	0000001C			 xit_kisr:
+     31	0000001C  E4 61			  in	  al, 61h	      ;read in 8255 port PB
+     32	0000001E  0C 80			  or	  al, 80h	      ;set keybrd acknowledge
+     33	00000020  E6 61			  out	  61h, al	      ;send it
+     34	00000022  24 7F			  and	  al, 7fh	      ;reset it
+     35	00000024  E6 61			  out	  61h, al	      ;restore original	condition
+     36
+     37	00000026  66| BA 0020		  mov	  dx, 20h
+     38	0000002A  8A C2			  mov	  al, dl	      ;end the interrput
+     39	0000002C  EE			  out	  dx, al
+     40
+     41	0000002D  07			  pop es
+     42	0000002E  61			  popad
+     43	0000002F  CF			  iretd
+     44	00000030			 endp
+     45
+     46	00000030			 ends kbdriver
+     47					 end
+Turbo Assembler	 Version 4.1	    05/16/96 16:56:10	    Page 2
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??date				  Text	 "05/16/96"
+??filename			  Text	 "kbfunc  "
+??time				  Text	 "16:56:10"
+??version			  Number 040A
+@32Bit				  Text	 1
+@CodeSize			  Text	 0
+@Cpu				  Text	 0F8FH
+@DataSize			  Text	 0
+@FileName			  Text	 kbfunc
+@Interface			  Text	 01h
+@Model				  Text	 1
+@WordSize			  Text	 4
+@code				  Text	 FLAT
+@curseg				  Text	 kbdriver
+@data				  Text	 FLAT
+@stack				  Text	 FLAT
+kb_release			  Near	 FLAT:0018
+kisr (_kisr)			  Near	 FLAT:0000
+scode (_scode)			  Byte	 ----:---- Extern
+xit_kisr			  Near	 FLAT:001C
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  _DATA				  32  0000 Dword  Public  DATA
+FLAT				  Group
+_TEXT				  32  0000 Dword  Public  CODE
+kbdriver			  32  0030 Para	  none
+

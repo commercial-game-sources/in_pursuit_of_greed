@@ -1,0 +1,90 @@
+REM ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+REM บ CAUTION!!!  You MUST have ThrustMaster Command & Control Center       บ
+REM บ (MARK2.EXE) vs 1.38 or higher and MK2LOAD.EXE vs 5.01 or higher to    บ
+REM บ use the macro capability.  You can tell if you have vs 1.38 by lookingบ
+REM บ at the top of the C&CC screen where the version # is shown on any of  บ
+REM บ the menu screens or click on F-7 About to view the version #.  To tellบ
+REM บ if you have MK2LOAD.EXE vs 5.01 just download a file - you will see   บ
+REM บ the version # at the top of the download screen. To obtain the newer  บ
+REM บ versions if you do not have them, check with any of the listed places บ
+REM บ in C:\MARK2\MK2UTILS\TMBBS.TXT where you may download the latest      บ
+REM บ versions of the Command and Control Center software.                  บ
+REM ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+REM                    In Pursuit of Greed
+REM
+REM                        Version 1.1
+REM
+REM               Christopher Tallent  1-15-96
+REM
+REM
+REM Base Switch Settings
+REM Black Hat switch = Digital
+REM Red Switch       = Analog
+REM
+REM
+REM Game Settings: In Setup, make sure that keyboard is set to default
+REM
+REM
+
+Mdef GREED
+
+REM ษออออออออออออออออออออออออป
+REM บ(P)FCS Buttons Commands:บ
+REM ศออออออออออออออออออออออออผ
+
+BTN UB UseItem
+
+BTN MB UseSwitch
+
+BTN LB Jump
+
+BTN HU LookUp
+
+BTN HD LookDown
+
+BTN HL StrafeLeft
+
+BTN HR StrafeRight
+
+REM ษออออออออออออออออออออออออป
+REM บWCS II Buttons Commands:บ
+REM ศออออออออออออออออออออออออผ
+
+BTN 1 /U Escape
+      /M Run
+      /D MapToggle
+
+BTN 2 /U Pause
+      /M InventLeft
+      /D HeatToggle
+
+BTN 3 /U Mission
+      /M InventRight
+      /D MotionToggle
+
+BTN 4 /U ScreenBigger
+      /M /T Gun1
+         /T Gun2
+      /D ASSCam
+
+BTN 5 /U ScreenSmaller
+      /M /T Gun3
+         /T Gun4
+      /D ItemDisplay
+
+BTN 6 /U Help
+      /M Gun5
+      /D AutoRunToggle
+
+
+REM ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+REM บ NOTE: THIS FILE IS TO BE USED WITH THE NEW CHIP AND MICROCODE FOR บ
+REM บ THE MARK II WCS ONLY.  IF YOU DO NOT HAVE THIS CHIP, THEN CONTACT บ
+REM บ THRUSTMASTER at 503-639-3200 TO INQUIRE ABOUT UPGRADING TO THE    บ
+REM บ NEW CHIP AND MICROCODE!!!!                                        บ
+REM บ                                                                   บ
+REM บ How can you tell if you have the new chip and microcode?  At the  บ
+REM บ C:\MARK2 Dos prompt type DIR MK2LOAD.EXE and hit enter.  If it    บ
+REM บ says "File not found then you have the old microcode version that บ
+REM บ uses DOWNLOAD.EXE instead.                                        บ
+REM ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ

@@ -1,0 +1,16 @@
+gen_1 dsprite    1       1       43      48
+gen_2 dsprite    45      1       43      48
+gen_3 dsprite    89      1       43      48
+gen_4 dsprite    133     1       43      48
+genmed_1 dsprite 1       50      43      48
+genmed_2 dsprite 45      50      43      48
+genmed_3 dsprite 89      50      43      48
+genmed_4 dsprite 133     50      43      48
+genmedb_1 dsprite 1      99      43      48
+genmedb_2 dsprite 45     99      43      48
+genmedb_3 dsprite 89     99      43      48
+genmedb_4 dsprite 133    99      43      48
+genshdb_1 dsprite 1      148     43      48
+genshdb_2 dsprite 45     148     43      48
+genshdb_3 dsprite 89     148     43      48
+genshdb_4 dsprite 133    148     43      48      
